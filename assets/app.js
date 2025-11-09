@@ -3,16 +3,18 @@
 // =========================
 function $(q, el = document) { return el.querySelector(q); }
 function norm(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
-async function loadJSON(path){
-  const r = await fetch(path);
-  if(!r.ok) throw new Error(`HTTP ${r.status} on ${path}`);
-  return r.json();
+async function loadJSON(url) {
+  const res = await fetch(withBase(url), { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`HTTP ${res.status} on ${url}`);
+  return res.json();
 }
+
 function getParam(name, def=''){
   const u = new URL(location.href);
   return u.searchParams.get(name) ?? def;
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); } // "les Sevii" -> "iles_sevii"
+
 // --- GitHub Pages base-path helper ---
 const REPO_BASE = (() => {
   const parts = location.pathname.split('/').filter(Boolean);
@@ -20,11 +22,12 @@ const REPO_BASE = (() => {
 })();
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;
-  if (p.startsWith(REPO_BASE + '/')) return p;
-  if (p.startsWith('/')) return REPO_BASE + p;
+  if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
+  if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
+  if (p.startsWith('/')) return REPO_BASE + p; // /data/… -> /Pokemon_Destination/data/…
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
+
 
 // ==============================
 // Correction des accents casss
@@ -378,6 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initMovesByRegion();                  // ✅ page région
   }
 });
+
 
 
 
