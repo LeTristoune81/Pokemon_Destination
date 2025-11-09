@@ -2,8 +2,8 @@
 <!doctype html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title id="title">Pokmon</title>
-<link rel="stylesheet" href="../assets/style.css">
-<script defer src="../assets/app.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/app.js"></script>
 <style>
 .sprite{width:192px;height:auto;border-radius:12px;border:1px solid #252a43;background:#0e1122;padding:8px}
 .headerWrap{display:flex;gap:16px;align-items:center}
@@ -13,9 +13,9 @@
   <div class="header">
     <div class="h1" id="title">Pokmon</div>
     <div class="nav">
-      <a href="../index.html">Accueil</a>
-      <a href="../pokedex.html">Pokdex</a>
-      <a href="../moves.html">Attaques</a>
+      <a href="index.html">Accueil</a>
+      <a href="pokedex.html">Pokdex</a>
+      <a href="moves.html">Attaques</a>
     </div>
   </div>
   <div class="card">
@@ -55,7 +55,7 @@ const _initPokemonOrig = initPokemon;
 initPokemon = async function(){
   await _initPokemonOrig();
   const name = decodeURIComponent(location.pathname.split('/').pop().replace('.html',''))
-  const res = await fetch('../data/pokedex_johto.json'); const data = await res.json();
+  const res = await fetch('data/pokedex_johto.json'); const data = await res.json();
   const p = data.find(x=> x.name.toLowerCase() === name);
   if (p && p.image){
     document.getElementById('sprite').src = '../' + p.image;
@@ -64,6 +64,7 @@ initPokemon = async function(){
 }
 </script>
 </body></html>
+
 
 
 
