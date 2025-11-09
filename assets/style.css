@@ -1,0 +1,191 @@
+/* ======= RESET DE BASE ======= */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #0d1020;
+  color: #e0e5f5;
+  margin: 0;
+  padding: 0;
+}
+a { color: #68b4ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1,h2,h3,h4 { margin: 0; }
+
+/* ======= STRUCTURE ======= */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.nav a {
+  margin-left: 12px;
+  font-weight: 500;
+}
+.h1 { font-size: 1.8rem; font-weight: 600; }
+.h2 { font-size: 1.3rem; margin-top: 18px; margin-bottom: 6px; }
+
+/* ======= CARTES ======= */
+.card {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.cardRow {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #252a43;
+  background: #0e1122;
+  padding: 6px;
+  flex: 0 0 72px;
+}
+.cardBody { flex: 1 1 auto; }
+
+/* ======= BADGES ======= */
+.badge {
+  display: inline-block;
+  background: #1b2344;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-right: 4px;
+  font-size: 0.85rem;
+  color: #a4b4ff;
+}
+
+/* ======= LISTES ======= */
+ul.list, ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.list li, ul li {
+  margin: 2px 0;
+}
+
+/* ======= GRILLE POKDEX ======= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+/* ======= CAPACITS PAR NIVEAU ======= */
+#lvl {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.lvl-group {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.lvl-title {
+  font-weight: 600;
+  color: #d7dbec;
+  margin-bottom: 6px;
+}
+.lvl-group ul {
+  margin: 0;
+  padding-left: 16px;
+  list-style: disc;
+}
+.lvl-group li { margin: 2px 0; }
+
+/* ======= COLONNES MULTI-LISTES ======= */
+.lvl-group ul.cols {
+  columns: 2;
+  column-gap: 16px;
+}
+@media (min-width: 1200px) {
+  .lvl-group ul.cols { columns: 3; }
+}
+
+/* ======= SECTION OBJET TENU + RESSOURCE ======= */
+#objres {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+}
+#objresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding-left: 0;
+}
+#objresGrid .lvl-group {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+#objresGrid .lvl-title {
+  font-weight: 600;
+  color: #d7dbec;
+  margin-bottom: 6px;
+}
+#objresGrid ul {
+  list-style: none;
+  padding-left: 8px;
+  margin: 0;
+}
+#objresGrid li {
+  margin: 3px 0;
+}
+
+/* ======= SPRITE PRINCIPAL ======= */
+.sprite {
+  width: 192px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #252a43;
+  background: #0e1122;
+  padding: 8px;
+}
+
+/* ======= PETITES ADAPTATIONS ======= */
+.small { font-size: 0.85rem; opacity: 0.8; }
+.kv {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  row-gap: 10px;   /* ? tait trop serr : on laugmente */
+  column-gap: 10px;
+  margin-top: 6px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #b7bfd4;
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 800px) {
+  .header { flex-direction: column; align-items: flex-start; }
+  .kv { grid-template-columns: 120px 1fr; }
+  #objresGrid { grid-template-columns: 1fr; }
+}
+
+
+
+
+

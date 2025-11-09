@@ -1,0 +1,1667 @@
+[
+  {
+    "name": "Airmure",
+    "WildDropCommon": "E_FERPLUME",
+    "ressource": {
+      "code": "E_FERPLUME",
+      "name": "Plume Ferplume",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Aligatueur",
+    "WildDropCommon": "E_KAIMINUS",
+    "ressource": {
+      "code": "E_KAIMINUS",
+      "name": "Griffe Kaiminus",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Axoloto",
+    "WildDropCommon": "E_AXOLOTO",
+    "ressource": {
+      "code": "E_AXOLOTO",
+      "name": "Mucus Axoloto",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Azumarill",
+    "WildDropCommon": "E_AZURILL",
+    "ressource": {
+      "code": "E_AZURILL",
+      "name": "Duvet Azurill",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Azurill",
+    "WildDropCommon": "E_AZURILL",
+    "ressource": {
+      "code": "E_AZURILL",
+      "name": "Duvet Azurill",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Babimanta",
+    "WildDropCommon": "E_BABIMANTA",
+    "ressource": {
+      "code": "E_BABIMANTA",
+      "name": "caille Babimanta",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cadoizo",
+    "WildDropCommon": "E_CADUTIN",
+    "ressource": {
+      "code": "E_CADUTIN",
+      "name": "Cadeau Cadutin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cadutin",
+    "WildDropCommon": "E_CADUTIN",
+    "ressource": {
+      "code": "E_CADUTIN",
+      "name": "Cadeau Cadutin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Capidextre",
+    "WildDropCommon": "E_CAPUMAIN",
+    "ressource": {
+      "code": "E_CAPUMAIN",
+      "name": "Poils Capumain",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Capumain",
+    "WildDropCommon": "E_CAPUMAIN",
+    "ressource": {
+      "code": "E_CAPUMAIN",
+      "name": "Poils Capumain",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Caratroc",
+    "WildDropCommon": "E_CARATROC",
+    "ressource": {
+      "code": "E_CARATROC",
+      "name": "Jus Caratroc",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": "JUSDEBAIE",
+    "held_item": {
+      "code": "JUSDEBAIE",
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Celebi",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cerfrousse",
+    "WildDropCommon": "E_CERFROUSSE",
+    "ressource": {
+      "code": "E_CERFROUSSE",
+      "name": "Orbe Cerfrousse",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cochignon",
+    "WildDropCommon": "E_MARCACRIN",
+    "ressource": {
+      "code": "E_MARCACRIN",
+      "name": "Poils Marcacrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Corayon",
+    "WildDropCommon": "E_CORAYON",
+    "ressource": {
+      "code": "E_CORAYON",
+      "name": "Corail Corayon",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Corboss",
+    "WildDropCommon": "E_CORNEBRE",
+    "ressource": {
+      "code": "E_CORNEBRE",
+      "name": "Plume Cornbre",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cornbre",
+    "WildDropCommon": "E_CORNEBRE",
+    "ressource": {
+      "code": "E_CORNEBRE",
+      "name": "Plume Cornbre",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Cotovol",
+    "WildDropCommon": "E_GRANIVOL",
+    "ressource": {
+      "code": "E_GRANIVOL",
+      "name": "Feuille Granivol",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Coxy",
+    "WildDropCommon": "E_COXY",
+    "ressource": {
+      "code": "E_COXY",
+      "name": "Pollen Coxy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Coxyclaque",
+    "WildDropCommon": "E_COXY",
+    "ressource": {
+      "code": "E_COXY",
+      "name": "Pollen Coxy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Coxynescent",
+    "WildDropCommon": "E_COXY",
+    "ressource": {
+      "code": "E_COXY",
+      "name": "Pollen Coxy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Coxypunch",
+    "WildDropCommon": "E_COXY",
+    "ressource": {
+      "code": "E_COXY",
+      "name": "Pollen Coxy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Crocrodil",
+    "WildDropCommon": "E_KAIMINUS",
+    "ressource": {
+      "code": "E_KAIMINUS",
+      "name": "Griffe Kaiminus",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Demanta",
+    "WildDropCommon": "E_BABIMANTA",
+    "ressource": {
+      "code": "E_BABIMANTA",
+      "name": "caille Babimanta",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Deusolourdo",
+    "WildDropCommon": "E_INSOLOURDO",
+    "ressource": {
+      "code": "E_INSOLOURDO",
+      "name": "caille Insolourdo",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Dimoret",
+    "WildDropCommon": "E_FARFURET",
+    "ressource": {
+      "code": "E_FARFURET",
+      "name": "Griffe Farfuret",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Donphan",
+    "WildDropCommon": "E_PHANPY",
+    "ressource": {
+      "code": "E_PHANPY",
+      "name": "Ongle Phanpy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Dracolourdo",
+    "WildDropCommon": "E_INSOLOURDO",
+    "ressource": {
+      "code": "E_INSOLOURDO",
+      "name": "caille Insolourdo",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Dragifigard",
+    "WildDropCommon": "E_GIRAFARIG",
+    "ressource": {
+      "code": "E_GIRAFARIG",
+      "name": "Duvet Girafarig",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Dmolosse",
+    "WildDropCommon": "E_MALOSSE",
+    "ressource": {
+      "code": "E_MALOSSE",
+      "name": "Croc Malosse",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Embrylex",
+    "WildDropCommon": "E_EMBRYLEX",
+    "ressource": {
+      "code": "E_EMBRYLEX",
+      "name": "Fragment Embrylex",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Entei",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Farfuret",
+    "WildDropCommon": "E_FARFURET",
+    "ressource": {
+      "code": "E_FARFURET",
+      "name": "Griffe Farfuret",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Farigiraf",
+    "WildDropCommon": "E_GIRAFARIG",
+    "ressource": {
+      "code": "E_GIRAFARIG",
+      "name": "Duvet Girafarig",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Ferplume",
+    "WildDropCommon": "E_FERPLUME",
+    "ressource": {
+      "code": "E_FERPLUME",
+      "name": "Plume Ferplume",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Feuforve",
+    "WildDropCommon": "E_FEUFOREVE",
+    "ressource": {
+      "code": "E_FEUFOREVE",
+      "name": "Perle Feuforve",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Feurisson",
+    "WildDropCommon": "E_HERICENDRE",
+    "ressource": {
+      "code": "E_HERICENDRE",
+      "name": "Duvet Hricendre",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Floravol",
+    "WildDropCommon": "E_GRANIVOL",
+    "ressource": {
+      "code": "E_GRANIVOL",
+      "name": "Feuille Granivol",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Fortress",
+    "WildDropCommon": "E_POMDEPIK",
+    "ressource": {
+      "code": "E_POMDEPIK",
+      "name": "corce Pomdepik",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Fouinar",
+    "WildDropCommon": "E_FOUINETTE",
+    "ressource": {
+      "code": "E_FOUINETTE",
+      "name": "Duvet Fouinette",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Fouinette",
+    "WildDropCommon": "E_FOUINETTE",
+    "ressource": {
+      "code": "E_FOUINETTE",
+      "name": "Duvet Fouinette",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Germignon",
+    "WildDropCommon": "E_GERMIGNON",
+    "ressource": {
+      "code": "E_GERMIGNON",
+      "name": "Feuille Germignon",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Girafarig",
+    "WildDropCommon": "E_GIRAFARIG",
+    "ressource": {
+      "code": "E_GIRAFARIG",
+      "name": "Duvet Girafarig",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Granbull",
+    "WildDropCommon": "E_SNUBBULL",
+    "ressource": {
+      "code": "E_SNUBBULL",
+      "name": "Poils Snubbull",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Granivol",
+    "WildDropCommon": "E_GRANIVOL",
+    "ressource": {
+      "code": "E_GRANIVOL",
+      "name": "Feuille Granivol",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Ho-Oh",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": "CENDRESACREE",
+    "held_item": {
+      "code": "CENDRESACREE",
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Hoothoot",
+    "WildDropCommon": "E_HOOTHOOT",
+    "ressource": {
+      "code": "E_HOOTHOOT",
+      "name": "Plume Hoothoot",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Hliatronc",
+    "WildDropCommon": "E_TOURNEGRIN",
+    "ressource": {
+      "code": "E_TOURNEGRIN",
+      "name": "Graine Tournegrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Hricendre",
+    "WildDropCommon": "E_HERICENDRE",
+    "ressource": {
+      "code": "E_HERICENDRE",
+      "name": "Duvet Hricendre",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Insolourdo",
+    "WildDropCommon": "E_INSOLOURDO",
+    "ressource": {
+      "code": "E_INSOLOURDO",
+      "name": "caille Insolourdo",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Kaiminus",
+    "WildDropCommon": "E_KAIMINUS",
+    "ressource": {
+      "code": "E_KAIMINUS",
+      "name": "Griffe Kaiminus",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Lainergie",
+    "WildDropCommon": "E_WATTOUAT",
+    "ressource": {
+      "code": "E_WATTOUAT",
+      "name": "Laine Wattouat",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Lanturn",
+    "WildDropCommon": "E_LOUPIO",
+    "ressource": {
+      "code": "E_LOUPIO",
+      "name": "caille Loupio",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Limagma",
+    "WildDropCommon": "E_LIMAGMA",
+    "ressource": {
+      "code": "E_LIMAGMA",
+      "name": "Lave Limagma",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Loupio",
+    "WildDropCommon": "E_LOUPIO",
+    "ressource": {
+      "code": "E_LOUPIO",
+      "name": "caille Loupio",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Lugia",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Lviator?",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Macronium",
+    "WildDropCommon": "E_GERMIGNON",
+    "ressource": {
+      "code": "E_GERMIGNON",
+      "name": "Feuille Germignon",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Magicarpe",
+    "WildDropCommon": "E_MAGICARPE2",
+    "ressource": {
+      "code": "E_MAGICARPE2",
+      "name": "Moustache Magicarpe",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Magirve",
+    "WildDropCommon": "E_FEUFOREVE",
+    "ressource": {
+      "code": "E_FEUFOREVE",
+      "name": "Perle Feuforve",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Magmollusk",
+    "WildDropCommon": "E_LIMAGMA",
+    "ressource": {
+      "code": "E_LIMAGMA",
+      "name": "Lave Limagma",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Malosse",
+    "WildDropCommon": "E_MALOSSE",
+    "ressource": {
+      "code": "E_MALOSSE",
+      "name": "Croc Malosse",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Mammochon",
+    "WildDropCommon": "E_MARCACRIN",
+    "ressource": {
+      "code": "E_MARCACRIN",
+      "name": "Poils Marcacrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Manza",
+    "WildDropCommon": "E_MANZAI",
+    "ressource": {
+      "code": "E_MANZAI",
+      "name": "Fragment Manza",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Maraist",
+    "WildDropCommon": "E_AXOLOTO",
+    "ressource": {
+      "code": "E_AXOLOTO",
+      "name": "Mucus Axoloto",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Marcacrin",
+    "WildDropCommon": "E_MARCACRIN",
+    "ressource": {
+      "code": "E_MARCACRIN",
+      "name": "Poils Marcacrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Marill",
+    "WildDropCommon": "E_AZURILL",
+    "ressource": {
+      "code": "E_AZURILL",
+      "name": "Duvet Azurill",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Migalos",
+    "WildDropCommon": "E_MIMIGAL",
+    "ressource": {
+      "code": "E_MIMIGAL",
+      "name": "Toile Mimigal",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Mimigal",
+    "WildDropCommon": "E_MIMIGAL",
+    "ressource": {
+      "code": "E_MIMIGAL",
+      "name": "Toile Mimigal",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Mganium",
+    "WildDropCommon": "E_GERMIGNON",
+    "ressource": {
+      "code": "E_GERMIGNON",
+      "name": "Feuille Germignon",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Natu",
+    "WildDropCommon": "E_NATU",
+    "ressource": {
+      "code": "E_NATU",
+      "name": "Plume Natu",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Noarfang",
+    "WildDropCommon": "E_HOOTHOOT",
+    "ressource": {
+      "code": "E_HOOTHOOT",
+      "name": "Plume Hoothoot",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Octillery",
+    "WildDropCommon": "E_REMORAID",
+    "ressource": {
+      "code": "E_REMORAID",
+      "name": "caille Rmoraid",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Okok",
+    "WildDropCommon": "E_OKEOKE",
+    "ressource": {
+      "code": "E_OKEOKE",
+      "name": "Peau Okok",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Papadoizo",
+    "WildDropCommon": "E_CADUTIN",
+    "ressource": {
+      "code": "E_CADUTIN",
+      "name": "Cadeau Cadutin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Phanpy",
+    "WildDropCommon": "E_PHANPY",
+    "ressource": {
+      "code": "E_PHANPY",
+      "name": "Ongle Phanpy",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Pharamp",
+    "WildDropCommon": "E_WATTOUAT",
+    "ressource": {
+      "code": "E_WATTOUAT",
+      "name": "Laine Wattouat",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Pomdepik",
+    "WildDropCommon": "E_POMDEPIK",
+    "ressource": {
+      "code": "E_POMDEPIK",
+      "name": "corce Pomdepik",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Prophibou",
+    "WildDropCommon": "E_HOOTHOOT",
+    "ressource": {
+      "code": "E_HOOTHOOT",
+      "name": "Plume Hoothoot",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Queulorior",
+    "WildDropCommon": "E_QUEULORIOR",
+    "ressource": {
+      "code": "E_QUEULORIOR",
+      "name": "Peinture Queulorior",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Qulbutoke",
+    "WildDropCommon": "E_OKEOKE",
+    "ressource": {
+      "code": "E_OKEOKE",
+      "name": "Peau Okok",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Qwilfish",
+    "WildDropCommon": "E_QWILFISH",
+    "ressource": {
+      "code": "E_QWILFISH",
+      "name": "Pic Qwilfish",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Raikou",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Remoraid",
+    "WildDropCommon": "E_REMORAID",
+    "ressource": {
+      "code": "E_REMORAID",
+      "name": "caille Rmoraid",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Scarhino",
+    "WildDropCommon": "E_SCARMINUS",
+    "ressource": {
+      "code": "E_SCARMINUS",
+      "name": "Corne Scarminus",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Scarminus",
+    "WildDropCommon": "E_SCARMINUS",
+    "ressource": {
+      "code": "E_SCARMINUS",
+      "name": "Corne Scarminus",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Scorplane",
+    "WildDropCommon": "E_SCORPLANE",
+    "ressource": {
+      "code": "E_SCORPLANE",
+      "name": "caille Scorplane",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Scorvol",
+    "WildDropCommon": "E_SCORPLANE",
+    "ressource": {
+      "code": "E_SCORPLANE",
+      "name": "caille Scorplane",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Simularbre",
+    "WildDropCommon": "E_MANZAI",
+    "ressource": {
+      "code": "E_MANZAI",
+      "name": "Fragment Manza",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Snubbull",
+    "WildDropCommon": "E_SNUBBULL",
+    "ressource": {
+      "code": "E_SNUBBULL",
+      "name": "Poils Snubbull",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Suicune",
+    "WildDropCommon": null,
+    "ressource": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": "Non Rpertori"
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Teddiursa",
+    "WildDropCommon": "E_TEDDIURSA",
+    "ressource": {
+      "code": "E_TEDDIURSA",
+      "name": "Griffe Teddiursa",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Togekiss",
+    "WildDropCommon": "E_TOGEPI",
+    "ressource": {
+      "code": "E_TOGEPI",
+      "name": "Coque Togepi",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Togekoloss",
+    "WildDropCommon": "E_TOGEPI",
+    "ressource": {
+      "code": "E_TOGEPI",
+      "name": "Coque Togepi",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Togepi",
+    "WildDropCommon": "E_TOGEPI",
+    "ressource": {
+      "code": "E_TOGEPI",
+      "name": "Coque Togepi",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Togetic",
+    "WildDropCommon": "E_TOGEPI",
+    "ressource": {
+      "code": "E_TOGEPI",
+      "name": "Coque Togepi",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Tournegrin",
+    "WildDropCommon": "E_TOURNEGRIN",
+    "ressource": {
+      "code": "E_TOURNEGRIN",
+      "name": "Graine Tournegrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Tournelux",
+    "WildDropCommon": "E_TOURNEGRIN",
+    "ressource": {
+      "code": "E_TOURNEGRIN",
+      "name": "Graine Tournegrin",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Trisolourdo",
+    "WildDropCommon": "E_INSOLOURDO",
+    "ressource": {
+      "code": "E_INSOLOURDO",
+      "name": "caille Insolourdo",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Typhlosion",
+    "WildDropCommon": "E_HERICENDRE",
+    "ressource": {
+      "code": "E_HERICENDRE",
+      "name": "Duvet Hricendre",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Tyranocif",
+    "WildDropCommon": "E_EMBRYLEX",
+    "ressource": {
+      "code": "E_EMBRYLEX",
+      "name": "Fragment Embrylex",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Ursaking",
+    "WildDropCommon": "E_TEDDIURSA",
+    "ressource": {
+      "code": "E_TEDDIURSA",
+      "name": "Griffe Teddiursa",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Ursaring",
+    "WildDropCommon": "E_TEDDIURSA",
+    "ressource": {
+      "code": "E_TEDDIURSA",
+      "name": "Griffe Teddiursa",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Volcaropod",
+    "WildDropCommon": "E_LIMAGMA",
+    "ressource": {
+      "code": "E_LIMAGMA",
+      "name": "Lave Limagma",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Wattouat",
+    "WildDropCommon": "E_WATTOUAT",
+    "ressource": {
+      "code": "E_WATTOUAT",
+      "name": "Laine Wattouat",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": "LAINE",
+    "held_item": {
+      "code": "LAINE",
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Xatu",
+    "WildDropCommon": "E_NATU",
+    "ressource": {
+      "code": "E_NATU",
+      "name": "Plume Natu",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Yanma",
+    "WildDropCommon": "E_YANMA",
+    "ressource": {
+      "code": "E_YANMA",
+      "name": "Aile Yanma",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Yanmega",
+    "WildDropCommon": "E_YANMA",
+    "ressource": {
+      "code": "E_YANMA",
+      "name": "Aile Yanma",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Ymphect",
+    "WildDropCommon": "E_EMBRYLEX",
+    "ressource": {
+      "code": "E_EMBRYLEX",
+      "name": "Fragment Embrylex",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "Zarbi ?",
+    "WildDropCommon": "E_ZARBI",
+    "ressource": {
+      "code": "E_ZARBI",
+      "name": "Rune Zarbi",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": null,
+    "held_item": {
+      "code": null,
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  },
+  {
+    "name": "crmeuh",
+    "WildDropCommon": "E_ECREMEUH",
+    "ressource": {
+      "code": "E_ECREMEUH",
+      "name": "Lait crmeuh",
+      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+    },
+    "WildItemCommon": "LAITMEUMEU",
+    "held_item": {
+      "code": "LAITMEUMEU",
+      "name": "Non Rpertori",
+      "description": ""
+    }
+  }
+]

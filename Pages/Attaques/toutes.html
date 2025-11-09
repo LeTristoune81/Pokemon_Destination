@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Toutes les attaques</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{margin:0;background:#0f1421;color:#dbe7ff;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:1080px;margin:24px auto;padding:0 16px}
+    h1{margin:0 0 12px}
+    .note{opacity:.7;font-size:.95rem;margin-bottom:14px}
+    .toolbar{display:flex;gap:8px;align-items:center;margin:12px 0 16px;flex-wrap:wrap}
+    .toolbar input,.toolbar select{background:#0b1020;border:1px solid #27324a;border-radius:6px;color:#dbe7ff;padding:8px 10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+    .card{background:#0b1020;border:1px solid #27324a;border-radius:10px;padding:12px}
+    .card strong{color:#ffffff}
+    .tag{display:inline-block;background:#1a2440;border:1px solid #334569;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:.8rem}
+    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem}
+    .alert{background:#24121a;border:1px solid #6d2a3c;color:#ffd6de;border-radius:8px;padding:10px 12px}
+    a{color:#7db3ff;text-decoration:none}
+    code{background:#101a2a;border:1px solid #27324a;border-radius:6px;padding:0 6px}
+    .count{margin-left:10px; opacity:.85; font-size:.92rem; color:#bcd7ff}
+    @media (max-width:520px){ .grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))} }
+  </style>
+</head>
+<body>
+  <nav class="topnav" style="padding:8px 16px">
+    <a href="/index.html">Accueil</a> /
+    <a href="/Pages/Attaques/region.html?r=Johto">Attaques de Johto</a> /
+  </nav>
+
+  <div class="wrap">
+    <h1>Toutes les attaques</h1>
+    <div class="note">Recherche + filtre par type</div>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Rechercher une attaque…" />
+      <label>Type :
+        <select id="typeSel">
+          <option value="ALL" selected>Tous</option>
+          <!-- options types injectées dynamiquement -->
+        </select>
+      </label>
+      <span id="count" class="count">0 attaques</span>
+    </div>
+
+    <div id="msg"></div>
+    <div id="moves" class="grid"></div>
+  </div>
+
+  <script>
+  (async () => {
+    // Emplacement JSON (page placée sous /Pages/Attaques/)
+    const PATH = '../../data/moves_by_type.json';
+
+    const msg     = document.getElementById('msg');
+    const grid    = document.getElementById('moves');
+    const search  = document.getElementById('search');
+    const typeSel = document.getElementById('typeSel');
+    const countEl = document.getElementById('count');
+
+    const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+
+    async function loadJSON(path, label) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
+      return res.json();
+    }
+
+    let byType;
+    try {
+      byType = await loadJSON(PATH, 'moves_by_type.json');
+    } catch (e) {
+      msg.innerHTML = `<div class="alert">
+        Erreur de chargement : ${e.message}<br>
+        Vérifie que le fichier existe bien à l’emplacement :
+        <div><code>${PATH}</code></div>
+        Et que tu ouvres la page via un serveur local (ex : <code>http://127.0.0.1:5500/Pages/Attaques/toutes.html</code>).
+      </div>`;
+      return;
+    }
+
+    // Uniformiser si jamais c'était un tableau (rare) : ici on attend un objet {type: [...]}
+    if (Array.isArray(byType)) {
+      const regroup = {};
+      for (const m of byType) {
+        const t = m.type || 'Inconnu';
+        (regroup[t] ||= []).push(m);
+      }
+      byType = regroup;
+    }
+
+    // Construire la liste plate + remplir le sélecteur de types
+    const allTypes = Object.keys(byType).sort((a,b)=>a.localeCompare(b));
+    for (const t of allTypes) {
+      const opt = document.createElement('option');
+      opt.value = t; opt.textContent = t;
+      typeSel.appendChild(opt);
+    }
+
+    // Liste à plat avec référence du type
+    const ALL = [];
+    for (const t of allTypes) {
+      for (const m of byType[t]) {
+        ALL.push({
+          ...m,
+          type: t   // garantir la présence du type
+        });
+      }
+    }
+
+    function updateCount(n) {
+      countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
+    }
+
+    function render() {
+      const q = norm(search.value);
+      const t = typeSel.value;
+
+      const list = ALL
+        .filter(m => t === 'ALL' ? true : m.type === t)
+        .filter(m => !q || norm(m.name).includes(q) || norm(m.upper || '').includes(q));
+
+      updateCount(list.length);
+
+      if (!list.length) {
+        grid.innerHTML = `<div class="alert">Aucune attaque trouvée pour ce filtre.</div>`;
+        return;
+      }
+
+      grid.innerHTML = list.map(m => `
+        <div class="card">
+          <div><strong>${m.name || m.upper}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
+          ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
+          <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
+          ${m.description ? `<div class="small">${m.description}</div>` : ''}
+        </div>
+      `).join('');
+    }
+
+    // Événements + premier rendu
+    search.addEventListener('input', render);
+    typeSel.addEventListener('change', render);
+    render();
+  })();
+  </script>
+</body>
+</html>

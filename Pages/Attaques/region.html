@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Attaques par région</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{margin:0;background:#0f1421;color:#dbe7ff;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:1080px;margin:24px auto;padding:0 16px}
+    h1{margin:0 0 12px}
+    .note{opacity:.7;font-size:.95rem;margin-bottom:14px}
+    .toolbar{display:flex;gap:8px;align-items:center;margin:12px 0 16px;flex-wrap:wrap}
+    .toolbar input,.toolbar select{background:#0b1020;border:1px solid #27324a;border-radius:6px;color:#dbe7ff;padding:8px 10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+    .card{background:#0b1020;border:1px solid #27324a;border-radius:10px;padding:12px}
+    .card strong{color:#ffffff}
+    .tag{display:inline-block;background:#1a2440;border:1px solid #334569;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:.8rem}
+    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem}
+    .alert{background:#24121a;border:1px solid #6d2a3c;color:#ffd6de;border-radius:8px;padding:10px 12px}
+    a{color:#7db3ff;text-decoration:none}
+    code{background:#101a2a;border:1px solid #27324a;border-radius:6px;padding:0 6px}
+    .count{margin-left:10px; opacity:.85; font-size:.92rem; color:#bcd7ff}
+    @media (max-width:520px){ .grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))} }
+  </style>
+</head>
+<body>
+  <nav class="topnav" style="padding:8px 16px">
+    <a href="/index.html">Accueil</a>
+  </nav>
+
+  <div class="wrap">
+    <h1 id="title">Attaques de <span id="regionLabel">Johto</span></h1>
+    <div class="note">(filtres CT / DT / CS / CU pour la région sélectionnée)</div>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Rechercher une attaque…" />
+      <label>Tag :
+        <select id="tagSel">
+          <option value="ALL" selected>Tous</option>
+          <option value="CT">CT</option>
+          <option value="DT">DT</option>
+          <option value="CS">CS</option>
+          <option value="CU">CU</option>
+        </select>
+      </label>
+      <span id="count" class="count">0 attaques</span>
+    </div>
+
+    <div id="msg"></div>
+    <div id="attacks" class="grid"></div>
+  </div>
+
+  <script>
+  (async () => {
+    // ---- Région depuis ?r=Johto (défaut Johto)
+    const url = new URL(location.href);
+    const rParam = url.searchParams.get('r') || 'Johto';
+    document.getElementById('regionLabel').textContent = rParam;
+
+    // ---- Chemins vers les JSON (depuis /Pages/Attaques/)
+    const PATH_MOVES   = '../../data/moves_index.json';
+    const PATH_REGIONS = '../../data/regions_moves.json';
+
+    const msg     = document.getElementById('msg');
+    const grid    = document.getElementById('attacks');
+    const search  = document.getElementById('search');
+    const tagSel  = document.getElementById('tagSel');
+    const countEl = document.getElementById('count');
+
+    // --- utilitaires
+    const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+
+    async function loadJSON(path, label) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
+      return res.json();
+    }
+
+    let movesAll, regions;
+    try {
+      movesAll = await loadJSON(PATH_MOVES, 'moves_index.json');
+      regions  = await loadJSON(PATH_REGIONS, 'regions_moves.json');
+    } catch (e) {
+      msg.innerHTML = `<div class="alert">
+        Erreur de chargement : ${e.message}<br>
+        Vérifie que les fichiers existent bien aux emplacements :
+        <div><code>${PATH_MOVES}</code></div>
+        <div><code>${PATH_REGIONS}</code></div>
+        Et que tu ouvres la page via un serveur local (ex : <code>http://127.0.0.1:5500/Pages/Attaques/region.html?r=Johto</code>).
+      </div>`;
+      return;
+    }
+
+    // moves_index.json peut être un objet ou un tableau ; on uniformise en tableau d'objets
+    const movesArray = Array.isArray(movesAll) ? movesAll : Object.values(movesAll || {});
+    const nameMap = new Map(movesArray.map(m => [m.name, m]));
+
+    // clé de région dans regions_moves.json (insensible aux accents/casse)
+    const keyWanted = norm(rParam);
+    const foundKey = Object.keys(regions).find(k => norm(k) === keyWanted);
+    const regionData = (foundKey && regions[foundKey]) || { CT: [], DT: [], CS: [], CU: [] };
+
+    // fonction liste par tag : ALL agrège l'union unique
+    function listForTag(tagRaw) {
+      const raw  = (tagRaw ?? '').toString().trim();
+      const normTag = raw
+        .replace(/\u2014/g, '') // em-dash —
+        .replace(/\u2013/g, '') // en-dash –
+        .replace(/-/g, '')      // hyphen -
+        .replace(/\s+/g, '')    // espaces
+        .toUpperCase();
+
+      const valid = new Set(['CT','DT','CS','CU']);
+      if (valid.has(normTag)) return regionData[normTag] || [];
+
+      const all = ['CT','DT','CS','CU'].flatMap(k => regionData[k] || []);
+      return Array.from(new Set(all));
+    }
+
+    function updateCount(n) {
+      countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
+    }
+
+    function render() {
+      const tag = tagSel.value;
+      const q   = norm(search.value);
+
+      const names = listForTag(tag)
+        .filter(n => !q || norm(n).includes(q));
+
+      updateCount(names.length);
+
+      if (!names.length) {
+        grid.innerHTML = `<div class="alert">Aucune attaque trouvée pour ce filtre.</div>`;
+        return;
+      }
+
+      grid.innerHTML = names.map(name => {
+        const m = nameMap.get(name);
+        if (!m) {
+          return `<div class="card"><strong>${name}</strong><div class="small">Détail introuvable dans moves_index.json</div></div>`;
+        }
+        return `
+          <div class="card">
+            <div><strong>${m.name}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
+            ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
+            <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
+            ${m.description ? `<div class="small">${m.description}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+    }
+
+    // events + rendu initial
+    search.addEventListener('input', render);
+    tagSel.addEventListener('change', render);
+    render();
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4562 @@
+[E_XXX]
+Name = XXX
+NamePlural = XXX
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - KANTO]-------------------------
+#-------------------------------------------------------------------------
+[E_BULBIZARRE]
+Name = Liane Bulbizarre
+NamePlural = Liane Bulbizarre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SALAMECHE]
+Name = Griffe Salamche
+NamePlural = Griffe Salamche
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARAPUCE]
+Name = caille Carapuce
+NamePlural = caille Carapuce
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHENIPAN]
+Name = Scrtion Chenipan
+NamePlural = Scrtion Chenipan
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ASPICOT]
+Name = Dard Aspicot
+NamePlural = Dard Aspicot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ROUCOOL]
+Name = Plume Roucool
+NamePlural = Plume Roucool
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RATTATA]
+Name = Poils Rattata
+NamePlural = Poils Rattata
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PIAFABEC]
+Name = Plume Piafabec
+NamePlural = Plume Piafabec
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ABO]
+Name = Croc Abo
+NamePlural = Croc Abo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PICHU]
+Name = Poils Pichu
+NamePlural = Poils Pichu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SABELETTE]
+Name = Griffe Sabelette
+NamePlural = Griffe Sabelette
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NIDORAN]
+Name = Poils Nidoran 
+NamePlural = Poils Nidoran 
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NIDORANF]
+Name = Poils Nidoran 
+NamePlural = Poils Nidoran 
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MELO]
+Name = Poils Mlo
+NamePlural = Poils Mlo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOUPIX]
+Name = Poils Goupix
+NamePlural = Poils Goupix
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOUDOUDOU]
+Name = Poils Toudoudou
+NamePlural = Poils Toudoudou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NOSFERAPTI]
+Name = Croc Nosferapti
+NamePlural = Croc Nosferapti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MYSTHERBE]
+Name = Feuille Mystherbe
+NamePlural = Feuille Mystherbe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PARAS]
+Name = Champignon Paras
+NamePlural = Champignon Paras
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIMITOSS]
+Name = Croc Mimitoss
+NamePlural = Croc Mimitoss
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TAUPIQUEUR]
+Name = Terre Taupiqueur
+NamePlural = Terre Taupiqueur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIAOUSS]
+Name = Poils Miaouss
+NamePlural = Poils Miaouss
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PSYKOKWAK]
+Name = Duvet Psykokwak
+NamePlural = Duvet Psykokwak
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FEROSINGE]
+Name = Poils Frosinge
+NamePlural = Poils Frosinge
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CANINOS]
+Name = Poils Caninos
+NamePlural = Poils Caninos
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PTITARD]
+Name = Mucus Ptitard
+NamePlural = Mucus Ptitard
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ABRA]
+Name = Babiole Abra
+NamePlural = Babiole Abra
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MACHOC]
+Name = Sueur Machoc
+NamePlural = Sueur Machoc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHETIFLOR]
+Name = Suc Chtiflor
+NamePlural = Suc Chtiflor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TENTACOOL]
+Name = Aiguillon Tentacool
+NamePlural = Aiguillon Tentacool
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RACAILLOU]
+Name = Fragment Racaillou
+NamePlural = Fragment Racaillou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PONYTA]
+Name = Poils Ponyta
+NamePlural = Poils Ponyta
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RAMOLOSS]
+Name = Griffe Ramoloss
+NamePlural = Griffe Ramoloss
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAGNETI]
+Name = Vis Magnti
+NamePlural = Vis Magnti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CANARTICHO]
+Name = Plume Canarticho
+NamePlural = Plume Canarticho
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DODUO]
+Name = Duvet Doduo
+NamePlural = Duvet Doduo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OTARIA]
+Name = Poils Otaria
+NamePlural = Poils Otaria
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TADMORV]
+Name = Boue Tadmorv
+NamePlural = Boue Tadmorv
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KOKIYAS]
+Name = Perle Kokiyas
+NamePlural = Perle Kokiyas
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FANTOMINUS]
+Name = Gaz Fantominus
+NamePlural = Gaz Fantominus
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ONIX]
+Name = Fragment Onix
+NamePlural = Fragment Onix
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOPORIFIK]
+Name = Mucus Soporifik
+NamePlural = Mucus Soporifik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KRABBY]
+Name = caille Krabby
+NamePlural = caille Krabby
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VOLTORBE]
+Name = lectricit Voltorbe
+NamePlural = lectricit Voltorbe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NOEUNOEUF]
+Name = Graine Noeunoeuf
+NamePlural = Graine Noeunoeuf
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OSSELAIT]
+Name = Larme Osselait
+NamePlural = Larme Osselait
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DEBUGANT]
+Name = Sueur Dbugant
+NamePlural = Sueur Dbugant
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TIRELANGUE]
+Name = Bave Tirelangue
+NamePlural = Bave Tirelangue
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SMOGO]
+Name = Gaz Smogo
+NamePlural = Gaz Smogo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RHINOCORNE]
+Name = Fragment Rhinocorne
+NamePlural = Fragment Rhinocorne
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PTIRAVI]
+Name = Oeuf Ptiravi
+NamePlural = Oeufs Ptiravi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TETEDENEU]
+Name = Liane Ttedeneu
+NamePlural = Liane Ttedeneu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KANGOUKID]
+Name = caille Kangoukid
+NamePlural = caille Kangoukid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HYPOTREMPE]
+Name = Encre Hypotrempe
+NamePlural = Encre Hypotrempe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POISSIRENE]
+Name = caille Poissirne
+NamePlural = caille Poissirne
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_STARI]
+Name = Corail Stari
+NamePlural = Corail Stari
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIMEJR]
+Name = Babiole Mime Jr.
+NamePlural = Babiole Mime Jr.
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_INSECATEUR]
+Name = Griffe Inscateur
+NamePlural = Griffes Inscateur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LIPPOUTI]
+Name = Cheveux Lippouti
+NamePlural = Cheveux Lippouti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ELEKID]
+Name = Poils lekid
+NamePlural = Poils lekid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAGBY]
+Name = Poils Magby
+NamePlural = Poils Magby
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCARABRUTE]
+Name = Carapace Scarabrute
+NamePlural = Carapaces Scarabrute
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TAUROS]
+Name = Poils Tauros
+NamePlural = Poils Tauros
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAGICARPE]
+Name = caille Magicarpe
+NamePlural = caille Magicarpe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LOKHLASS]
+Name = Larme Lokhlass
+NamePlural = Larmes Lokhlass
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_METAMORPH]
+Name = Fluide Mtamorph
+NamePlural = Fluide Mtamorph
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_EVOLI]
+Name = Poils voli
+NamePlural = Poils voli
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PORYGON]
+Name = Fragment Porygon
+NamePlural = Fragments Porygon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AMONITA]
+Name = cume Amonita
+NamePlural = cume Amonita
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KABUTO]
+Name = Sable Kabuto
+NamePlural = Sable Kabuto
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PTERA]
+Name = Croc Ptra
+NamePlural = Crocs Ptra
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOINFREX]
+Name = Provisions Goinfrex
+NamePlural = Provisions Goinfrex
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MINIDRACO]
+Name = Mue Minidraco
+NamePlural = Mues Minidraco
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[2/RESSOURCES - JOHTO]-------------------------
+#-------------------------------------------------------------------------
+[E_GERMIGNON]
+Name = Feuille Germignon
+NamePlural = Feuilles Germignon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HERICENDRE]
+Name = Duvet Hricendre
+NamePlural = Duvets Hricendre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KAIMINUS]
+Name = Griffe Kaiminus
+NamePlural = Griffes Kaiminus
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FOUINETTE]
+Name = Duvet Fouinette
+NamePlural = Duvets Fouinette
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HOOTHOOT]
+Name = Plume Hoothoot
+NamePlural = Plumes Hoothoot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COXY]
+Name = Pollen Coxy
+NamePlural = Pollen Coxy
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIMIGAL]
+Name = Toile Mimigal
+NamePlural = Toiles Mimigal
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VIBRADUSE]
+Name = Mucus Vibraduse
+NamePlural = Mucus Vibraduse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOGEPI]
+Name = Coque Togepi
+NamePlural = Coques Togepi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NATU]
+Name = Plume Natu
+NamePlural = Plumes Natu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TEKTEK]
+Name = corce Tektek
+NamePlural = corces Tektek
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_WATTOUAT]
+Name = Laine Wattouat
+NamePlural = Laines Wattouat
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AZURILL]
+Name = Duvet Azurill
+NamePlural = Duvets Azurill
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_INFESTIQUE]
+Name = Dard Infestique
+NamePlural = Dards Infestique
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MANZAI]
+Name = Fragment Manza
+NamePlural = Fragments Manza
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAGICARPE2]
+Name = Moustache Magicarpe
+NamePlural = Moustaches Magicarpe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRANIVOL]
+Name = Feuille Granivol
+NamePlural = Feuilles Granivol
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CAPUMAIN]
+Name = Poils Capumain
+NamePlural = Poils Capumain
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOURNEGRIN]
+Name = Graine Tournegrin
+NamePlural = Graines Tournegrin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BUCHARME]
+Name = corce Bucharm
+NamePlural = corces Bucharm
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BRAZIBUCHE]
+Name = corce Brazibche
+NamePlural = corces Brazibche
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_YANMA]
+Name = Aile Yanma
+NamePlural = Ailes Yanma
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AXOLOTO]
+Name = Mucus Axoloto
+NamePlural = Mucus Axoloto
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SANGLUANT]
+Name = Boue Sangluant
+NamePlural = Boue Sangluant
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOPORIFIK2]
+Name = Duvet Soporifik
+NamePlural = Duvets Soporifik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CORNEBRE]
+Name = Plume Cornbre
+NamePlural = Plumes Cornbre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FEUFOREVE]
+Name = Perle Feuforve
+NamePlural = Perles Feuforve
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DAMERANTE]
+Name = Tissu Damrante
+NamePlural = Tissus Damrante
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZARBI]
+Name = Rune Zarbi
+NamePlural = Runes Zarbi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OKEOKE]
+Name = Peau Okok
+NamePlural = Peaux Okok
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_URNANIMA]
+Name = Fragment Urnanima
+NamePlural = Fragments Urnanima
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GIRAFARIG]
+Name = Duvet Girafarig
+NamePlural = Duvets Girafarig
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHOUKIPU]
+Name = Feuille Choukipu
+NamePlural = Feuilles Choukipu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POMDEPIK]
+Name = corce Pomdepik
+NamePlural = corces Pomdepik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_INSOLOURDO]
+Name = caille Insolourdo
+NamePlural = cailles Insolourdo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RANIPEDE]
+Name = Mucus Ranipde
+NamePlural = Mucus Ranipde
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCORPLANE]
+Name = caille Scorplane
+NamePlural = cailles Scorplane
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GLASPIC]
+Name = Mue Glaspic
+NamePlural = Mues Glaspic
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SNUBBULL]
+Name = Poils Snubbull
+NamePlural = Poils Snubbull
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DOUDELLE]
+Name = Duvet Doudelle
+NamePlural = Duvets Doudelle
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_JOELLINE]
+Name = Larme Jolline
+NamePlural = Larmes Jolline
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_QWILFISH]
+Name = Pic Qwilfish
+NamePlural = Pics Qwilfish
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COLLUSQUE]
+Name = Coquillage Collusque
+NamePlural = Coquillages Collusque
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARATROC]
+Name = Jus Caratroc
+NamePlural = Jus Caratroc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BROUTHERBE]
+Name = Corne Broutherbe
+NamePlural = Cornes Broutherbe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCARMINUS]
+Name = Corne Scarminus
+NamePlural = Cornes Scarminus
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOBETOX]
+Name = Toxine Gobetox
+NamePlural = Toxines Gobetox
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FARFURET]
+Name = Griffe Farfuret
+NamePlural = Griffes Farfuret
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PANDAZEN]
+Name = Poils Pandazen
+NamePlural = Poils Pandazen
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOUCHTACHE]
+Name = corce Souchtache
+NamePlural = corces Souchtache
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TEDDIURSA]
+Name = Griffe Teddiursa
+NamePlural = Griffes Teddiursa
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TORGRANIT]
+Name = Carapace Torgranit
+NamePlural = Carapaces Torgranit
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LIMAGMA]
+Name = Lave Limagma
+NamePlural = Lave Limagma
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DIABAZAR]
+Name = Corne Diabazar
+NamePlural = Cornes Diabazar
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHATOURON]
+Name = Poils Chatouron
+NamePlural = Poils Chatouron
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MARCACRIN]
+Name = Poils Marcacrin
+NamePlural = Poils Marcacrin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CADUTIN]
+Name = Cadeau Cadutin
+NamePlural = Cadeau Cadutin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLAMOOKEY]
+Name = Poils Flamookey
+NamePlural = Poils Flamookey
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_STALGAPIK]
+Name = Pic Stalgapik
+NamePlural = Pics Stalgapik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CORAYON]
+Name = Corail Corayon
+NamePlural = Coraux Corayon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_REMORAID]
+Name = caille Rmoraid
+NamePlural = cailles Rmoraid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SQUAILERON]
+Name = Dent Squaileron
+NamePlural = Dents Squaileron
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LOUPIO]
+Name = caille Loupio
+NamePlural = cailles Loupio
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_JOMANTIN]
+Name = Duvet Jomantin
+NamePlural = Duvets Jomantin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BABIMANTA]
+Name = caille Babimanta
+NamePlural = cailles Babimanta
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FERPLUME]
+Name = Plume Ferplume
+NamePlural = Plumes Ferplume
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MORVONEZ]
+Name = Morve Morvonez
+NamePlural = Morve Morvonez
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CAUCHRONIX]
+Name = Fragment Cauchronix
+NamePlural = Fragments Cauchronix
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MALOSSE]
+Name = Croc Malosse
+NamePlural = Crocs Malosse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PHANPY]
+Name = Ongle Phanpy
+NamePlural = Ongles Phanpy
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOLAGON]
+Name = Mucus Molagon
+NamePlural = Mucus Molagon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CERFROUSSE]
+Name = Orbe Cerfrousse
+NamePlural = Orbes Cerfrousse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LARVURAI]
+Name = Carapace Larvura
+NamePlural = Carapaces Larvura
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_QUEULORIOR]
+Name = Peinture Queulorior
+NamePlural = Peintures Queulorior
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ECREMEUH]
+Name = Lait crmeuh
+NamePlural = Lait crmeuh
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PETARMI]
+Name = Fibre Ptarmi
+NamePlural = Fibres Ptarmi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DRAKOCHON]
+Name = Mucus Drakochon
+NamePlural = Mucus Drakochon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_EMBRYLEX]
+Name = Fragment Embrylex
+NamePlural = Fragments Embrylex
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#------------------------[2/RESSOURCES - ILES SEVII]----------------------
+#-------------------------------------------------------------------------
+[E_FAUPOIZON]
+Name = Aileron Faupoizon
+NamePlural = Ailerons Faupoizon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BECOPO]
+Name = Plume Bcopo
+NamePlural = Plumes Bcopo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TIKIRI]
+Name = Masque Tikiri
+NamePlural = Masques Tikiri
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CAMPIDON]
+Name = caille Campidon
+NamePlural = cailles Campidon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SANCOKI2]
+Name = Mucus Sancoki
+NamePlural = Mucus Sancoki
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SPONGENITH]
+Name = ponge Spongnith
+NamePlural = ponges Spongnith
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TRISCAILLE]
+Name = caille Triscaille
+NamePlural = cailles Triscaille
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BASALARVE]
+Name = Carapace Basalarve
+NamePlural = Carapaces Basalarve
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BOULORON]
+Name = Vis Bouloron
+NamePlural = Vis Bouloron
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BLAZICARPE]
+Name = caille Blazicarpe
+NamePlural = cailles Blazicarpe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RAIMONIAK]
+Name = Corne Raimoniak
+NamePlural = Cornes Raimoniak
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TIPEPITE]
+Name = Ppite Tippite
+NamePlural = Ppites Tippite
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BLOP]
+Name = Gele Blop
+NamePlural = Geles Blop
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_REBEPINE]
+Name = pine Rbpine
+NamePlural = pines Rbpine
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SMOGO2]
+Name = Bue Smogo
+NamePlural = Bue Smogo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PINCHARPE]
+Name = Duvet Pincharpe
+NamePlural = Duvets Pincharpe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GLAFAON]
+Name = Poils Glafaon
+NamePlural = Poils Glafaon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FUMAJAR]
+Name = Fragment Fumajar
+NamePlural = Fragments Fumajar
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCOLETON]
+Name = Mue Scolton
+NamePlural = Mues Scolton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LACTOKO]
+Name = Lait Lactoko
+NamePlural = Lait Lactoko
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BANSHEM]
+Name = Larme Banshem
+NamePlural = Larmes Banshem
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DILOPHASPIC]
+Name = Venin Dilophaspic
+NamePlural = Venin Dilophaspic
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FUMEROC]
+Name = Charbon Fumroc
+NamePlural = Charbons Fumroc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DIPLAMBRE]
+Name = Griffe Diplambre
+NamePlural = Griffes Diplambre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZEPHY]
+Name = Orbe Zphy
+NamePlural = Orbes Zphy
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - HOENN]-------------------------
+#-------------------------------------------------------------------------
+[E_ARCKO]
+Name = Feuille Arcko
+NamePlural = Feuille Arcko
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POUSSIFEU]
+Name = Duvet Poussifeu
+NamePlural = Duvets Poussifeu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOBOU]
+Name = Mucus Gobou
+NamePlural = Mucus Gobou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MEDHYENA]
+Name = Croc Medhyena
+NamePlural = Crocs Medhyena
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZIGZATON]
+Name = Poils Zigzaton
+NamePlural = Poils Zigzaton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHENIPOTTE]
+Name = Fil Chenipotte
+NamePlural = Fil Chenipotte
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NENUPIOT]
+Name = Vase Nnupiot
+NamePlural = Vase Nnupiot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRAINIPIOT]
+Name = corce Grainipiot
+NamePlural = corce Grainipiot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NIRONDELLE]
+Name = Plume Nirondelle
+NamePlural = Plume Nirondelle
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOELISE]
+Name = Plume Golise
+NamePlural = Plume Golise
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TARSAL]
+Name = Babiole Tarsal
+NamePlural = Babiole Tarsal
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ARAKDO]
+Name = Nectar Arakdo
+NamePlural = Nectar Arakdo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BALIGNON]
+Name = Spore Balignon
+NamePlural = Spore Balignon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PARECOOL]
+Name = Poils Parecool
+NamePlural = Poils Parecool
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NINGALE]
+Name = Carapace Ningale
+NamePlural = Carapace Ningale
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHUCHMUR]
+Name = Larme Chuchmur
+NamePlural = Larmes Chuchmur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAKUHITA]
+Name = Sueur Makuhita
+NamePlural = Sueur Makuhita
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TARINOR]
+Name = Fragment Tarinor
+NamePlural = Fragments Tarinor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SKITTY]
+Name = Poils Skitty
+NamePlural = Poils Skitty
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TENEFIX]
+Name = Joyau Tnfix
+NamePlural = Joyaux Tnfix
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MYSDIBULE]
+Name = Croc Mysdibule
+NamePlural = Crocs Mysdibule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GALEKID]
+Name = Fragment Galekid
+NamePlural = Fragments Galekid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MEDITIKKA]
+Name = Sueur Mditikka
+NamePlural = Sueur Mditikka
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DYNAVOLT]
+Name = Poils Dynavolt
+NamePlural = Poils Dynavolt
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POSIPI]
+Name = lectricit Posipi
+NamePlural = lectricit Posipi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NEGAPI]
+Name = lectricit Ngapi
+NamePlural = lectricit Ngapi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MUCIOLE]
+Name = Antenne Muciole
+NamePlural = Antenne Muciole
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LUMIVOLE]
+Name = Poudre Lumivole
+NamePlural = Poudre Lumivole
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ROZBOUTON]
+Name = Bourgeon Rozbouton
+NamePlural = Bourgeon Rozbouton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GLOUPTI]
+Name = Mucus Gloupti
+NamePlural = Mucus Gloupti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARVANHA]
+Name = caille Carvanha
+NamePlural = cailles Carvanha
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_WAILMER]
+Name = cume Wailmer
+NamePlural = cume Wailmer
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHAMALLOT]
+Name = Duvet Chamallot
+NamePlural = Duvets Chamallot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHARTOR]
+Name = Carapace Chartor
+NamePlural = Carapaces Chartor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SPOINK]
+Name = Orbe Spoink
+NamePlural = Orbes Spoink
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SPINDA]
+Name = Poils Spinda
+NamePlural = Poils Spinda
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KRAKNOIX]
+Name = Carapace Kraknoix
+NamePlural = Carapaces Kraknoix
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CACNEA]
+Name = Pics Cacna
+NamePlural = Pics Cacna
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TYLTON]
+Name = Duvet Tylton
+NamePlural = Duvets Tylton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MANGRIFF]
+Name = Griffe Mangriff
+NamePlural = Griffes Mangriff
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SEVIPER]
+Name = Croc Sviper
+NamePlural = Crocs Sviper
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SELEROC]
+Name = Fragment Slroc
+NamePlural = Fragments Slroc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOLAROC]
+Name = Fragment Solaroc
+NamePlural = Fragments Solaroc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARLOCHE]
+Name = Moustache Barloche
+NamePlural = Moustaches Barloche
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ECRAPINCE]
+Name = Pince crapince
+NamePlural = Pinces crapince
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BALBUTO]
+Name = Fragment Balbuto
+NamePlural = Fragments Balbuto
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LILIA]
+Name = Liane Lilia
+NamePlural = Lianes Lilia
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ANORITH]
+Name = Griffe Anorith
+NamePlural = Griffes Anorith
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARPAU]
+Name = caille Barpau
+NamePlural = cailles Barpau
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MORPHEO]
+Name = Duvet Morpho
+NamePlural = Duvet Morpho
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KECLEON]
+Name = Bave Kecleon
+NamePlural = Bave Kecleon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POLICHOMBR]
+Name = Tissu Polichombr
+NamePlural = Tissus Polichombr
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SKELENOX]
+Name = Tissu Skelnox
+NamePlural = Tissus Skelnox
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TROPIUS]
+Name = Feuille Tropius
+NamePlural = Feuilles Tropius
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KORILLON]
+Name = Ruban Korillon
+NamePlural = Rubans Korillon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ABSOL]
+Name = Griffe Absol
+NamePlural = Griffes Absol
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_STALGAMIN]
+Name = Coque Stalgamin
+NamePlural = Coques Stalgamin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OBALIE]
+Name = Duvet Obalie
+NamePlural = Duvets Obalie
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COQUIPERL]
+Name = Perle Coquiperl
+NamePlural = Perles Coquiperl
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RELICANTH]
+Name = Fragment Relicanth
+NamePlural = Fragments Relicanth
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LOVDISC]
+Name = caille Lovdisc
+NamePlural = cailles Lovdisc
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DRABY]
+Name = caille Draby
+NamePlural = cailles Draby
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TERHAL]
+Name = Mtal Terhal
+NamePlural = Mtaux Terhal
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - SINNOH]------------------------
+#-------------------------------------------------------------------------
+[E_TORTIPOUSS]
+Name = Engrais Tortipouss
+NamePlural = Engrais Tortipouss
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OUISTICRAM]
+Name = Poils Ouisticram
+NamePlural = Poils Ouisticram
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TIPLOUF]
+Name = Duvet Tiplouf
+NamePlural = Duvets Tiplouf
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ETOURMI]
+Name = Plume tourmi
+NamePlural = Plume tourmi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KEUNOTOR]
+Name = Poils Keunotor
+NamePlural = Poils Keunotor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRIKZIK]
+Name = Antenne Crikzik
+NamePlural = Antenne Crikzik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RACKOLIN]
+Name = Poils Rackolin
+NamePlural = Poils Rackolin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LIXY]
+Name = Poils Lixy
+NamePlural = Poils Lixy
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NENILLULE]
+Name = Poudre Nnillule
+NamePlural = Poudre Nnillule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KRANIDOS]
+Name = Fragment Kranidos
+NamePlural = Fragments Kranidos
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DINOCLIER]
+Name = Fragment Dinoclier
+NamePlural = Fragments Dinoclier
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BRIKUITE]
+Name = Argile Brikuite
+NamePlural = Argiles Brikuite
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHENITI]
+Name = Feuille Cheniti
+NamePlural = Feuilles Cheniti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_APITRINI]
+Name = Pollen Apitrini
+NamePlural = Pollen Apitrini
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PACHIRISU]
+Name = Poils Pachirisu
+NamePlural = Poils Pachirisu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MUSTEBOUEE]
+Name = Poils Musteboue
+NamePlural = Poils Musteboue
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CERIBOU]
+Name = Fruit Ceribou
+NamePlural = Fruits Ceribou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SANCOKI]
+Name = Mucus Sancoki
+NamePlural = Mucus Sancoki
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BAUDRIVE]
+Name = Tissu Baudrive
+NamePlural = Tissus Baudrive
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TRISTECADRE]
+Name = Bois Tristecadre
+NamePlural = Bois Tristecadre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TRISTECADRE2]
+Name = Mtal Tristecadre
+NamePlural = Mtaux Tristecadre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LAPOREILLE]
+Name = Poils Laporeille
+NamePlural = Poils Laporeille
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOUCHEF]
+Name = Moustache Souchef
+NamePlural = Moustaches Souchef
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHAGLAM]
+Name = Poils Chaglam
+NamePlural = Poils Chaglam
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOUFOUETTE]
+Name = Poils Moufouette
+NamePlural = Poils Moufouette
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FRIMARMOTTE]
+Name = Poils Frimarmotte
+NamePlural = Poils Frimarmotte
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ARCHEOMIRE]
+Name = Fragment Archomire
+NamePlural = Fragments Archomire
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PIJAKO]
+Name = Plume Pijako
+NamePlural = Plumes Pijako
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SPIRITOMB]
+Name = Plasma Spiritomb
+NamePlural = Plasma Spiritomb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRIKNOT]
+Name = Croc Griknot
+NamePlural = Crocs Griknot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RIOLU]
+Name = Aura Riolu
+NamePlural = Aura Riolu
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TERRALARVE]
+Name = Mue Terralarve
+NamePlural = Mues Terralarve
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HIPPOPOTAS]
+Name = Sable Hippopotas
+NamePlural = Sable Hippopotas
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PEKIIGNON]
+Name = Bourgeon Pekiignon
+NamePlural = Bourgeons Pekiignon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RAPION]
+Name = Griffe Rapion
+NamePlural = Griffes Rapion
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRADOPAUD]
+Name = Poison Cradopaud
+NamePlural = Poison Cradopaud
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VORTENTE]
+Name = Liane Vortente
+NamePlural = Lianes Vortente
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ECAYON]
+Name = caille cayon
+NamePlural = caille cayon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_YACKIAFROID]
+Name = Laine Yackiafroid
+NamePlural = Laines Yackiafroid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LOUNE]
+Name = Croc Loune
+NamePlural = Crocs Loune
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BLIZZI]
+Name = pine Blizzi
+NamePlural = pines Blizzi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CADRUMUS]
+Name = Fragment Cadrumus
+NamePlural = Fragments Cadrumus
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOTISMA]
+Name = lectricit Motisma
+NamePlural = lectricit Motisma
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SHAYMIN]
+Name = Fleur Shaymin
+NamePlural = Fleur Shaymin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - HISUI]-------------------------
+#-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - UNYS]--------------------------
+#-------------------------------------------------------------------------
+[E_VIPELIERRE]
+Name = Feuille Viplierre
+NamePlural = Feuilles Viplierre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRUIKUI]
+Name = Bave Gruikui
+NamePlural = Bave Gruikui
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOUSTILLON]
+Name = Coquillage Moustillon
+NamePlural = Coquillages Moustillon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RATENTIF]
+Name = Dent Ratentif
+NamePlural = Dents Ratentif
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PONCHIOT]
+Name = Poils Ponchiot
+NamePlural = Poils Ponchiot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHACRIPAN]
+Name = Poils Chacripan
+NamePlural = Poils Chacripan
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FEUILLAJOU]
+Name = Duvet Feuillajou
+NamePlural = Duvets Feuillajou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLAMAJOU]
+Name = Duvet Flamajou
+NamePlural = Duvets Flamajou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLOTAJOU]
+Name = Duvet Flotajou
+NamePlural = Duvets Flotajou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MUNNA]
+Name = Fluide Munna
+NamePlural = Fluide Munna
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POICHIGEON]
+Name = Plume Poichigeon
+NamePlural = Plumes Poichigeon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZEBIBRON]
+Name = Duvet Zbibron
+NamePlural = Duvets Zbibron
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NODULITHE]
+Name = Fragment Nodulithe
+NamePlural = Fragments Nodulithe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHOVSOURIR]
+Name = Duvet Chovsourir
+NamePlural = Duvets Chovsourir
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ROTOTAUPE]
+Name = Griffe Rototaupe
+NamePlural = Griffes Rototaupe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NANMEOUIE]
+Name = Duvet Nanmouie
+NamePlural = Duvets Nanmouie
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHARPENTI]
+Name = Copeaux Charpenti
+NamePlural = Copeaux Charpenti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TRITONDE]
+Name = Fluide Tritonde
+NamePlural = Fluide Tritonde
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KIMOTAMI]
+Name = Sueur Kimotami
+NamePlural = Sueur Kimotami
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LARVEYETTE]
+Name = Feuille Larveyette
+NamePlural = Feuilles Larveyette
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VENIPATTE]
+Name = Dard Vnipatte
+NamePlural = Dards Vnipatte
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DOUDOUVET]
+Name = Coton Doudouvet
+NamePlural = Coton Doudouvet
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHLOROBULE]
+Name = Fibre Chlorobule
+NamePlural = Fibres Chlorobule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARGANTUA]
+Name = caille Bargantua
+NamePlural = cailles Bargantua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARGANTUA_BLE]
+Name = Croc Bargantua
+NamePlural = Crocs Bargantua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARGANTUA_JAU]
+Name = Aileron Bargantua
+NamePlural = Ailerons Bargantua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MASCAIMAN]
+Name = Croc Mascaman
+NamePlural = Crocs Mascaman
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DARUMAROND]
+Name = Poils Darumarond
+NamePlural = Poils Darumarond
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MARACACHI]
+Name = Fleur Maracachi
+NamePlural = Fleurs Maracachi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRABICOQUE]
+Name = Pince Crabicoque
+NamePlural = Pinces Crabicoque
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BAGGIGUANE]
+Name = Sueur Baggiguane
+NamePlural = Sueur Baggiguane
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRYPTERO]
+Name = Plume Cryptro
+NamePlural = Plumes Cryptro
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TUTAFEH]
+Name = Fragment Tutafeh
+NamePlural = Fragments Tutafeh
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARAPAGOS]
+Name = caille Carapagos
+NamePlural = cailles Carapagos
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ARKEAPTI]
+Name = Plume Arkapti
+NamePlural = Plumes Arkapti
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIAMIASME]
+Name = Dchet Mimiasme
+NamePlural = Dchets Mimiasme
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZORUA]
+Name = Poils Zorua
+NamePlural = Poils Zorua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHINCHIDOU]
+Name = Duvet Chinchidou
+NamePlural = Duvets Chinchidou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCRUTELLA]
+Name = Larme Scrutella
+NamePlural = Larmes Scrutella
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NUCLEOS]
+Name = Liquide Nuclos
+NamePlural = Liquide Nuclos
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COUANETON]
+Name = Plume Couaneton
+NamePlural = Plumes Couaneton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SORBEBE]
+Name = Glace Sorbb
+NamePlural = Glace Sorbb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VIVALDAIM]
+Name = Poils Vivaldaim
+NamePlural = Poils Vivaldaim
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_EMOLGA]
+Name = Duvet molga
+NamePlural = Duvet molga
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARABING]
+Name = Coque Carabing
+NamePlural = Coque Carabing
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TROMPIGNON]
+Name = Spore Trompignon
+NamePlural = Spore Trompignon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VISKUSE]
+Name = Larme Viskuse
+NamePlural = Larmes Viskuse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MAMANBO]
+Name = caille Mamanbo
+NamePlural = cailles Mamanbo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_STATITIK]
+Name = Scrtion Statitik
+NamePlural = Scrtion Statitik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRINDUR]
+Name = Pics Grindur
+NamePlural = Pics Grindur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TIC]
+Name = crou Tic
+NamePlural = crou Tic
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ANCHWATT]
+Name = lectricit Anchwatt
+NamePlural = lectricit Anchwatt
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LEWSOR]
+Name = Fragment Lewsor
+NamePlural = Fragments Lewsor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FUNECIRE]
+Name = Cire Funcire
+NamePlural = Cire Funcire
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COUPENOTTE]
+Name = caille Coupenotte
+NamePlural = cailles Coupenotte
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POLARHUME]
+Name = Morve Polarhume
+NamePlural = Morve Polarhume
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HEXAGEL]
+Name = Fragment Hexagel
+NamePlural = Fragments Hexagel
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ESCARGAUME]
+Name = Armure Escargaume
+NamePlural = Armures Escargaume
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LIMONDE]
+Name = caille Limonde
+NamePlural = caille Limonde
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KUNGFOUINE]
+Name = Sueur Kungfouine
+NamePlural = Sueur Kungfouine
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DRAKKARMIN]
+Name = Griffe Drakkarmin
+NamePlural = Griffes Drakkarmin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRINGOLEM]
+Name = Rune Gringolem
+NamePlural = Runes Gringolem
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SCALPION]
+Name = Lame Scalpion
+NamePlural = Lames Scalpion
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FRISON]
+Name = Cuir Frisson
+NamePlural = Cuir Frisson
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FURAIGLON]
+Name = Plume Furaiglon
+NamePlural = Plumes Furaiglon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VOSTOURNO]
+Name = Coque Vostourno
+NamePlural = Coques Vostourno
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AFLAMANOIR]
+Name = Griffe Aflamanoir
+NamePlural = Griffes Aflamanoir
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FERMITE]
+Name = Mandibule Fermite
+NamePlural = Mandibules Fermite
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SOLOCHI]
+Name = Poils Solochi
+NamePlural = Poils Solochi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PYRONILLE]
+Name = Duvet Pyronille
+NamePlural = Duvets Pyronille
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - KALOS]-------------------------
+#-------------------------------------------------------------------------
+[E_MARISSON]
+Name = Coque Marisson
+NamePlural = Coques Marisson
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FEUNNEC]
+Name = Poils Feunnec
+NamePlural = Poils Feunnec
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRENOUSSE]
+Name = Fluide Grenousse
+NamePlural = Fluide Grenousse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SAPEREAU]
+Name = Poils Sapereau
+NamePlural = Poils Sapereau
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PASSEROUGE]
+Name = Plume Passerouge
+NamePlural = Plumes Passerouge
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LEPIDONILLE]
+Name = Scrtion Lpidonille
+NamePlural = Scrtion Lpidonille
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HELIONCEAU]
+Name = Poils Hlionceau
+NamePlural = Poils Hlionceau
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLABEBE]
+Name = Fleur Flabb
+NamePlural = Fleurs Flabb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLABEBE_BLE]
+Name = Fleur Flabb
+NamePlural = Fleurs Flabb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLABEBE_ORA]
+Name = Fleur Flabb
+NamePlural = Fleurs Flabb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLABEBE_BLA]
+Name = Fleur Flabb
+NamePlural = Fleurs Flabb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLABEBE_JAU]
+Name = Fleur Flabb
+NamePlural = Fleurs Flabb
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CABRIOLAINE]
+Name = Corne Cabriolaine
+NamePlural = Cornes Cabriolaine
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PANDESPIEGLE]
+Name = Poils Pandespigle
+NamePlural = Poils Pandespigle
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COUAFNICHE]
+Name = Poils Couafniche
+NamePlural = Poils Couafniche
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PSYSTIGRI]
+Name = Duvet Psytigri
+NamePlural = Duvet Psytigri
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MONORPALE]
+Name = Tissu Monorpale
+NamePlural = Tissus Monorpale
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLUVETIN]
+Name = Plume Fluvetin
+NamePlural = Plumes Fluvetin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SUCROQUIN]
+Name = Bonbon Sucroquin
+NamePlural = Bonbons Sucroquin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SEPIATOP]
+Name = Encre Spiatop
+NamePlural = Encre Spiatop
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OPERMINE]
+Name =  Griffe Opermine
+NamePlural = Griffes Opermine
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VENALGUE]
+Name = Algue Vnalgue
+NamePlural = Algues Vnalgue
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLINGOUSTE]
+Name = Pince Flingouste
+NamePlural = Pinces Flingouste
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GALVARAN]
+Name = caille Galvaran
+NamePlural = cailles Galvaran
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PTYRANIDUR]
+Name = Croc Pryranidur
+NamePlural = Crocs Pryranidur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AMAGARA]
+Name = Peau Amagara
+NamePlural = Peaux Amagara
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BRUTALIBRE]
+Name = Plume Brutalibr
+NamePlural = Plumes Brutalibr
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DEDENNE]
+Name = Poils Ddenne
+NamePlural = Poils Ddenne
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_STRASSIE]
+Name = Cristal Strassie
+NamePlural = Cristaux Strassie
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MUCUSCULE]
+Name = Bave Mucuscule
+NamePlural = Bave Mucuscule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TROUSSELIN]
+Name = Cl Trousselin
+NamePlural = Cls Trousselin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BROCELOME]
+Name = corce Broclme
+NamePlural = corces Broclme
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PITROUILLE]
+Name = Liane Pitrouille
+NamePlural = Lianes Pitrouille
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRELACON]
+Name = clats Grelaon
+NamePlural = clats Grelaon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SONISTRELLE]
+Name = Croc Sonistrelle
+NamePlural = Crocs Sonistrelle
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZYGARDE]
+Name = Cellule Zygarde
+NamePlural = Cellules Zygarde
+Pocket = 9
+Price = 10000
+SellPrice = 0
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - ALOLA]-------------------------
+#-------------------------------------------------------------------------
+[E_BRINDIBOU]
+Name = Plume Brindibou
+NamePlural = Plumes Brindibou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLAMIAOU]
+Name = Poils Flamiaou
+NamePlural = Poils Flamiaou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OTAQUIN]
+Name = Duvet Otaquin
+NamePlural = Duvets Otaquin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PICASSAUT]
+Name = Plume Picassaut
+NamePlural = Plumes Picassaut
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RATTATA2]
+Name = Dent Rattata
+NamePlural = Dents Rattata
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MANGLOUTON]
+Name = Poils Manglouton
+NamePlural = Poils Manglouton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MIAOUSS2]
+Name = Griffe Miaouss
+NamePlural = Griffes Miaouss
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LARVIBULE]
+Name = Scrtion Larvibule
+NamePlural = Scrtion Larvibule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRABAGARRE]
+Name = Coque Crabagarre
+NamePlural = Coques Crabagarre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - GALAR]-------------------------
+#-------------------------------------------------------------------------
+[E_OUISTEMPO]
+Name = Bton Ouistempo
+NamePlural = Btons Ouistempo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLAMBINO]
+Name = Duvet Flambino
+NamePlural = Duvets Flambino
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LARMELEON]
+Name = Larme Larmlon
+NamePlural = Larmes Larmlon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_RONGOURMAND]
+Name = Baie Rongourmand
+NamePlural = Baies Rongourmand
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MINISANGE]
+Name = Plume Minisange
+NamePlural = Plumes Minisange
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LARVADAR]
+Name = Setae Larvadar
+NamePlural = Setae Larvadar
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOUPILOU]
+Name = Poils Goupilou
+NamePlural = Poils Goupilou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOURNICOTON]
+Name = Ptale Tournicoton
+NamePlural = Ptale Tournicoton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOUMOUTON]
+Name = Laine Moumouton
+NamePlural = Laines Moumouton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KHELOCROK]
+Name = Carapace Khelocrok
+NamePlural = Carapaces Khelocrok
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VOLTOUTOU]
+Name = Poils Voltoutou
+NamePlural = Poils Voltoutou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHARBI]
+Name = Charbon Charbi
+NamePlural = Charbons Charbi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VERPOM]
+Name = Jus Verpom
+NamePlural = Jus Verpom
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DUNAJA]
+Name = Sable Dunaja
+NamePlural = Sable Dunaja
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NIGOSIER]
+Name = Plume Nigosier
+NamePlural = Plumes Nigosier
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_EMBROCHET]
+Name = caille Embrochet
+NamePlural = cailles Embrochet
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - PALDEA]------------------------
+#-------------------------------------------------------------------------
+[E_POUSSACHA]
+Name = Poils Poussacha
+NamePlural = Poils Poussacha
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHOCHODILE]
+Name = Bave Chochodile
+NamePlural = Bave Chochodile
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COIFFETON]
+Name = Duvet Coiffeton
+NamePlural = Duvets Coiffeton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GOURMELET]
+Name = Bave Gourmelet
+NamePlural = Bave Gourmelet
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TISSENBOULE]
+Name = Toile Tissenboule
+NamePlural = Toiles Tissenboule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LILLITERELLE]
+Name = Patte Lilliterelle
+NamePlural = Patte Lilliterelle
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POHM]
+Name = Poils Pohm
+NamePlural = Poils Pohm
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COMPAGNOL]
+Name = Dent Compagnol
+NamePlural = Dents Compagnol
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_AXOLOTO2]
+Name = Mucus Axoloto
+NamePlural = Mucus Axoloto
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PATACHIOT]
+Name = Miette Patachiot
+NamePlural = Miettes Patachiot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OLIVINI]
+Name = Huile Olivini
+NamePlural = Huile Olivini
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TAPATOES]
+Name = Plume Tapatoes
+NamePlural = Plumes Tapatoes
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_SELUTIN]
+Name = Sable Selutin
+NamePlural = Sable Selutin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHARBAMBIN]
+Name = Flamme Charbambin
+NamePlural = Flammes Charbambin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TETAMPOULE]
+Name = lectricit Ttampoule
+NamePlural = lectricit Ttampoule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZAPETREL]
+Name = Plume Zaptrel
+NamePlural = Plumes Zaptrel
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRONDOGUE]
+Name = Poils Grondogue
+NamePlural = Poils Grondogue
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRIBOURAIGNE]
+Name = Peinture Gribouraigne
+NamePlural = Peinture Gribouraigne
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VIROVENT]
+Name = Bois Virovent
+NamePlural = Bois Virovent
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TERRACOOL]
+Name = Liane Terracool
+NamePlural = Lianes Terracool
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CRAPAROI]
+Name = Carapace Craparoi
+NamePlural = Carapaces Craparoi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PIMITO]
+Name = pices Pimito
+NamePlural = pices Pimito
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LEBOULEROU]
+Name = Boule Lboulrou
+NamePlural = Boules Lboulrou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLOTILLON]
+Name = Ruban Flotillon
+NamePlural = Rubans Flotillon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FORGERETTE]
+Name = Larmes Forgerette
+NamePlural = Larmes Forgerette
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TAUPIKEAU]
+Name = cume Taupikeau
+NamePlural = cume Taupikeau
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LESTOMBAILE]
+Name = Drap Lestombaile
+NamePlural = Draps Lestombaile
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DOFIN]
+Name = Mucus Dofin
+NamePlural = Mucus Dofin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VROMBI]
+Name = Gaz Vrombi
+NamePlural = Gaz Vrombi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOTORIZARD]
+Name = caille Motorizard
+NamePlural = cailles Motorizard
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FERDETER]
+Name = Rouille Ferdeter
+NamePlural = Rouille Ferdeter
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TAUROS2]
+Name = Corne Tauros
+NamePlural = Cornes Tauros
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOUTOMBE]
+Name = Cire Toutombe
+NamePlural = Cire Toutombe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FLAMENROULE]
+Name = Plume Flamenroule
+NamePlural = Plumes Flamenroule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PIETACE]
+Name = Graisse Pitac
+NamePlural = Graisse Pitac
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_DELESTIN]
+Name = Chair Dlestin
+NamePlural = Chairs Dlestin
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_OYACATA]
+Name = Barbillon Oyacata
+NamePlural = Barbillons Oyacata
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_NIGIRIGON]
+Name = caille Nigirigon
+NamePlural = cailles Nigirigon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MORDUDOR]
+Name = Pice Mordudor
+NamePlural = Pices Mordudor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GERMECLAT]
+Name = Cristal Germclat
+NamePlural = Cristaux Germclat
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_POLTCHAGEIST]
+Name = Th Poltchageist
+NamePlural = Th Poltchageist
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#------------------------[9/RESSOURCES - SEPTENTRIA]----------------------
+#-------------------------------------------------------------------------
+[E_FRIGODO]
+Name = caille Frigodo
+NamePlural = cailles Frigodo
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - LENTIS]------------------------
+#-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - HISUI]-------------------------
+#-------------------------------------------------------------------------
+[E_BRINDIBOU2]
+Name = Plume Brindibou
+NamePlural = Plumes Brindibou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HERICENDRE2]
+Name = Poils Hricendre
+NamePlural = Poils Hricendre
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MOUSTILLON2]
+Name = Duvet Moustillon
+NamePlural = Duvets Moustillon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CANINOS2]
+Name = Poils Caninos
+NamePlural = Poils Caninos
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_VOLTORBE2]
+Name = lectricit Voltorbe
+NamePlural = lectricit Voltorbe
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_INSECATEUR2]
+Name = Griffe Inscateur
+NamePlural = Griffes Inscateur
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_QWILFISH2]
+Name = Pics Qwilfish
+NamePlural = Pics Qwilfish
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FARFURET2]
+Name = Griffe Farfuret
+NamePlural = Griffes Farfuret
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TEDDIURSA2]
+Name = Poils Teddiursa
+NamePlural = Poils Teddiursa
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CERFROUSSE2]
+Name = Poils Cerfrousse
+NamePlural = Poils Cerfrousse
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHLOROBULE2]
+Name = Bulbe Chlorobule
+NamePlural = Bulbes Chlorobule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BARGANTUA2]
+Name = Croc Bargantua
+NamePlural = Crocs Bargantua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZORUA2]
+Name = Poils Zorua
+NamePlural = Poils Zorua
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MUCUSCULE2]
+Name = Boue Mucuscule
+NamePlural = Boue Mucuscule
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FURAIGLON2]
+Name = Bec Furaiglon
+NamePlural = Becs Furaiglon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRELACON2]
+Name = Fragment Grelaon
+NamePlural = Fragments Grelaon
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - RHODE]-------------------------
+#-------------------------------------------------------------------------
+[E_CHAMPIBOUH]
+Name = Spore Champibouh
+NamePlural = Spores Champibouh
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TRONCYDE]
+Name = corce Troncyde
+NamePlural = corces Troncyde
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_BACTERIBLE]
+Name = Microbe Bactrible
+NamePlural = Microbes Bactrible
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHAPINOU]
+Name = Poils Chapinou
+NamePlural = Poils Chapinou
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TETANOX]
+Name = Mucus Ttanox
+NamePlural = Mucus Ttanox
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TOURBINI]
+Name = Plume Tourbini
+NamePlural = Plumes Tourbini
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHETIFLOR2]
+Name = Tige Chtiflor
+NamePlural = Tiges Chtiflor
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PLANTASOIF]
+Name = Feuille Plantasoif
+NamePlural = Feuilles Plantasoif
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TISTOILE]
+Name = Toile Tistoile
+NamePlural = Toiles Tistoile
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_HYPNOTIF]
+Name = corce Hypnotif
+NamePlural = corce Hypnotif
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_TADBETON]
+Name = Goudron Tadbton
+NamePlural = Goudron Tadbton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ESCARONE]
+Name = Mucus Escarone
+NamePlural = Mucus Escarone
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_MARACACHI2]
+Name = Graine Maracachi
+NamePlural = Graines Maracachi
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CARNACTON]
+Name = Os Carnacton
+NamePlural = Os Carnacton
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------------------------------------------------
+#--------------------------[9/RESSOURCES - YALTA]-------------------------
+#-------------------------------------------------------------------------
+[E_KARAKID]
+Name = Sueur Karakid
+NamePlural = Sueur Karakid
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ORPHAVOILE]
+Name = Tissu Orphavoile
+NamePlural = Tissus Orphavoile
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CORRIVEAU]
+Name = Cuir Corriveau
+NamePlural = Cuirs Corriveau
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COLINECTAR]
+Name = Plume Colinectar
+NamePlural = Plumes Colinectar
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRIPNITH]
+Name = Mucus Gripnith
+NamePlural = Mucus Gripnith
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_GRIPNATE]
+Name = Coque Gripnate
+NamePlural = Coques Gripnate
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CANHARA]
+Name = caille Canhara
+NamePlural = cailles Canhara
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_FOURMINAGE]
+Name = Patte Fourminage
+NamePlural = Pattes Fourminage
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_EOLUNE]
+Name = ventail olune
+NamePlural = ventails olune
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_KAKTRIK]
+Name = Pics Kaktrik
+NamePlural = Pics Kaktrik
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_COBRINI]
+Name = Venin Cobrini
+NamePlural = Venin Cobrini
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_LAMPINIE]
+Name = Poussire Lampinie
+NamePlural = Poussire Lampinie
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CACNEA2]
+Name = Pics Cacna
+NamePlural = Pics Cacna
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_CHAMALLOT2]
+Name = Cuir Chamallot
+NamePlural = Cuirs Chamallot
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_ZEPHAVANE]
+Name = Poils Zphavane
+NamePlural = Poils Zphavane
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
+#-------------------------------
+[E_PHASMARDENT]
+Name = Pics Phasmardent
+NamePlural = Pics Phasmardent
+Pocket = 9
+Price = 100
+SellPrice = 50
+Flags = Ressource,Fling_20
+Description = Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets.
