@@ -187,15 +187,25 @@ async function initPokemon(){
     const pokedEl = $('#pokedex'); if (pokedEl) pokedEl.textContent = p.pokedex || '?';
 
     const img = $('#sprite');
-    if (img){
-      const tryList = [
-        withBase(`/assets/pkm/${name}.png`),
-        withBase(`/assets/pkm/${rk}/${name}.png`)
-      ];
-      let i = 0;
-      img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
-      img.src = tryList[0];
+if (img){
+  const tryList = [
+    withBase(`/assets/pkm/${name}.png`),
+    withBase(`/assets/pkm/${rk}/${name}.png`),
+    withBase(`/assets/pkm2/${name}.png`),
+    withBase(`/assets/pkm2/${rk}/${name}.png`)
+  ];
+  let i = 0;
+  img.onerror = ()=>{
+    i++;
+    if (i < tryList.length) {
+      img.src = tryList[i];
+    } else {
+      img.style.display = 'none';
     }
+  };
+  img.src = tryList[0];
+}
+
 
     fixBrokenAccentsInDom();
   }catch(err){
@@ -213,3 +223,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (file.startsWith('pokedex')) initIndex();
   else if (file === 'pokemon.html') initPokemon();
 });
+
