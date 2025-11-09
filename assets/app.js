@@ -56,101 +56,124 @@ function detectRegionFromPath() {
 // ==================
 // Pokédex (liste)
 // ==================
-async function initIndex(){
+async function initPokemon(){
   try{
-    const list = $('.grid');
-    const q = $('#q');
+    const region = getParam('r','Johto');
+    const rk = slugRegion(region);
+    const name  = decodeURIComponent(getParam('n',''));
+    if (!name){
+      $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Aucun Pokémon précisé.</div>`);
+      return;
+    }
 
-    let status = document.getElementById('status');
-    if (!status) {
-      status = document.createElement('div');
-      status.id = 'status';
-      status.className = 'small';
-      if (q && q.parentElement) {
-        q.insertAdjacentElement('afterend', status);
-      } else if (list && list.parentElement) {
-        list.parentElement.insertBefore(status, list);
+    // Pokédex de la région
+    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
+    const p = data.find(x => x.name.toLowerCase() === name);
+    if(!p){
+      $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokémon introuvable dans ${region}.</div>`);
+      return;
+    }
+
+    // En-tête
+    $('#title')?.textContent = p.name;
+    $('#pokename')?.textContent = p.name;
+    $('#types')?.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
+    $('#evo')?.textContent  = p.evolution || '?';
+
+    // Liens vers la page des attaques (éviter le slash initial)
+    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+
+    // Talents
+    $('#habil')?.insertAdjacentHTML('afterbegin',
+      (p.abilities||[]).map(a=>linkMove(a)).join(', ') || '?'
+    );
+    $('#habhid')?.insertAdjacentHTML('afterbegin',
+      p.hidden_ability ? linkMove(p.hidden_ability) : '?'
+    );
+
+    // Pokédex (description)
+    $('#pokedex')?.insertAdjacentText('afterbegin', p.pokedex || '?');
+
+    // --- Capacités par niveau : groupées par tranches de 10
+    const lvlEl = $('#lvl');
+    const lvl = p.level_up || [];
+    if (lvlEl){
+      if (lvl.length){
+        const buckets = new Map();
+        for(const m of lvl){
+          const g = Math.floor((m.level - 1) / 10);
+          const start = g*10 + 1;
+          const end   = (g+1)*10;
+          const key   = `${start}-${end}`;
+          if(!buckets.has(key)) buckets.set(key, {start, end, items: []});
+          buckets.get(key).items.push(m);
+        }
+        const groups = [...buckets.values()].sort((a,b)=>a.start-b.start);
+        const html = groups.map(g=>{
+          const items = g.items.sort((a,b)=>a.level-b.level)
+            .map(m=>`<li>${m.level} ${linkMove(m.move)}</li>`).join('');
+          return `<li class="lvl-group"><div class="lvl-title">${g.start}-${g.end}</div><ul>${items}</ul></li>`;
+        }).join('');
+        lvlEl.innerHTML = html;
+      } else {
+        lvlEl.innerHTML = '<li>?</li>';
       }
     }
 
-    const region = detectRegionFromPath();
-    const rk = slugRegion(region);
-    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
+    // --- Listes repro / CS / CT / DT
+    const renderList = (arr)=> arr && arr.length
+      ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
+      : '<li>?</li>';
 
-    const render = (items)=>{
-      list.innerHTML = items.map(p=>{
-        const name = p.name.toLowerCase();
-        const candidates = [
-          p.image || '',
-          withBase(`/assets/pkm/${name}.png`),
-          withBase(`/assets/pkm/${rk}/${name}.png`),
-          withBase(`/assets/pkm/${name}_TCG.png`),
-          withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
-        ].filter(Boolean);
+    $('#eggs')?.insertAdjacentHTML('beforeend', renderList(p.egg_moves || []));
+    $('#cs')?.insertAdjacentHTML('beforeend',   renderList(p.cs || []));
+    $('#ct')?.insertAdjacentHTML('beforeend',   renderList(p.ct || []));
+    $('#dt')?.insertAdjacentHTML('beforeend',   renderList(p.dt || []));
 
-        const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
-        const firstSrc = candidates[0];
-        const href = withBase(`/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`);
+    // --- Objet tenu & Ressource (facultatif si le JSON n’existe pas)
+    try{
+      const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
+      const d = drops.find(x => x.name.toLowerCase() === p.name.toLowerCase()) || null;
 
-        return `
-          <div class="card">
-            <div class="cardRow">
-              <img class="thumb pokeimg"
-                   src="${firstSrc}"
-                   alt="${p.name}"
-                   data-srcs="${dataSrcs}"
-                   data-idx="0"
-                   loading="lazy"
-                   style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">
-              <div class="cardBody">
-                <div class="h2">${p.name}</div>
-                <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
-                <div class="small" style="margin-top:4px">${p.evolution ? p.evolution : ''}</div>
-                <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche </a></div>
-              </div>
-            </div>
-          </div>`;
-      }).join('');
-      status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
+      const heldName = (d && d.held_item && d.held_item.name) ? d.held_item.name : 'Non répertorié';
+      const resName  = (d && d.ressource && d.ressource.name && d.ressource.name !== 'Non RÉPERTORIÉ')
+                        ? d.ressource.name : 'Non répertorié';
+      const resDesc  = (d && d.ressource && d.ressource.description)
+                        ? d.ressource.description
+                        : 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
 
-      // Gestion du fallback d'image
-      list.querySelectorAll('img.pokeimg').forEach(img=>{
-        img.onerror = () => {
-          try {
-            const srcs = JSON.parse(decodeURIComponent(img.getAttribute('data-srcs')));
-            let idx = parseInt(img.getAttribute('data-idx') || '0', 10);
-            idx++;
-            if (idx < srcs.length) {
-              img.setAttribute('data-idx', String(idx));
-              img.src = srcs[idx];
-            } else {
-              img.style.display = 'none';
-            }
-          } catch {
-            img.style.display = 'none';
-          }
-        };
-      });
-    };
-
-    render(data);
-
-    if(q){
-      q.addEventListener('input', e=>{
-        const v = norm(e.target.value);
-        const f = data.filter(p =>
-          norm(p.name).includes(v) ||
-          norm((p.types||[]).join(' ')).includes(v)
-        );
-        render(f);
-      });
+      const objres = $('#objres');
+      if (objres){
+        objres.innerHTML = `
+          <ul id="objresGrid">
+            <li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>${heldName}</li></ul></li>
+            <li class="lvl-group"><div class="lvl-title">Ressource</div><ul><li><b>${resName}</b></li><li style="margin-top:4px;opacity:0.8;">${resDesc}</li></ul></li>
+          </ul>`;
+      }
+    } catch(e){
+      console.warn('Drops/ressource indisponibles :', e.message);
     }
+
+    // --- Sprite (version simple : assets/pkm uniquement)
+    const img = $('#sprite');
+    if (img){
+      const tryList = [
+        withBase(`/assets/pkm/${name}.png`),
+        withBase(`/assets/pkm/${rk}/${name}.png`)
+      ];
+      let i = 0;
+      img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
+      img.src = tryList[0];
+    }
+
+    fixBrokenAccentsInDom();
   }catch(err){
     console.error(err);
     const c = $('.container');
-    if (c) c.innerHTML = `<div class="card">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`;
+    if (c) c.innerHTML = `<div class="card">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
   }
 }
+
 
 // ==================
 // Fiche Pokémon
@@ -213,3 +236,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (file.startsWith('pokedex')) initIndex();
   else if (file === 'pokemon.html') initPokemon();
 });
+
