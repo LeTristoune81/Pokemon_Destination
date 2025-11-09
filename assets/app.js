@@ -113,7 +113,7 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
-      // Fallback image en cascade
+      // Gestion du fallback d'image
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -179,10 +179,10 @@ async function initPokemon(){
     const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
 
     const habilEl = $('#habil');
-    if (habilEl) habilEl.innerHTML = (p.abilities||[]).map(a=>`<a href="moves.html#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
+    if (habilEl) habilEl.innerHTML = (p.abilities||[]).map(a=>`<a href="/moves.html#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
 
     const habhidEl = $('#habhid');
-    if (habhidEl) habhidEl.innerHTML = p.hidden_ability ? `<a href="moves.html#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
+    if (habhidEl) habhidEl.innerHTML = p.hidden_ability ? `<a href="/moves.html#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
 
     const pokedEl = $('#pokedex'); if (pokedEl) pokedEl.textContent = p.pokedex || '?';
 
