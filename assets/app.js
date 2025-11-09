@@ -13,12 +13,18 @@ function getParam(name, def=''){
   return u.searchParams.get(name) ?? def;
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); } // "les Sevii" -> "iles_sevii"
-// Base path pour GitHub Pages (repo pages)
+// --- GitHub Pages base-path helper ---
 const REPO_BASE = (() => {
   const parts = location.pathname.split('/').filter(Boolean);
   return location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}` : '';
 })();
-const withBase = (p) => `${REPO_BASE}${p.startsWith('/') ? p : '/' + p}`;
+const withBase = (p) => {
+  if (!p) return p;
+  if (/^https?:\/\//i.test(p)) return p;
+  if (p.startsWith(REPO_BASE + '/')) return p;
+  if (p.startsWith('/')) return REPO_BASE + p;
+  return REPO_BASE + '/' + p.replace(/^.\//,'');
+};
 
 // ==============================
 // Correction des accents casss
@@ -260,7 +266,7 @@ async function initPokemon(){
       return;
     }
 
-    const data = await loadJSON(`/data/pokedex_${rk}.json`);
+    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
     const p = data.find(x => x.name.toLowerCase() === name);
     if(!p){
       $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokmon introuvable dans ${region}.</div>`);
@@ -372,6 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initMovesByRegion();                  // ✅ page région
   }
 });
+
 
 
 
