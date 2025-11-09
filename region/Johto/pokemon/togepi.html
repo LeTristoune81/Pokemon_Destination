@@ -1,0 +1,72 @@
+
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="title">Pokmon</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script defer src="../assets/app.js"></script>
+<style>
+.sprite{width:192px;height:auto;border-radius:12px;border:1px solid #252a43;background:#0e1122;padding:8px}
+.headerWrap{display:flex;gap:16px;align-items:center}
+</style>
+</head><body onload="initPokemon()">
+<div class="container">
+  <div class="header">
+    <div class="h1" id="title">Pokmon</div>
+    <div class="nav">
+      <a href="../index.html">Accueil</a>
+      <a href="../pokedex.html">Pokdex</a>
+      <a href="../moves.html">Attaques</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="headerWrap">
+      <img id="sprite" class="sprite" alt="Sprite" src="" onerror="this.style.display='none'">
+      <div>
+        <div class="kv">
+          <div><b>Types</b></div><div id="types"></div>
+          <div><b>volution</b></div><div id="evo">?</div>
+          <div><b>Talents</b></div><div id="habil">?</div>
+          <div><b>Talent cach</b></div><div id="habhid">?</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="h2">Capacits par niveau</div>
+    <ul class="list" id="lvl"></ul>
+    <div class="h2">Capacits par reproduction</div>
+    <ul class="list" id="eggs"></ul>
+    <div class="h2">CS</div>
+    <ul class="list" id="cs"></ul>
+    <div class="h2">CT</div>
+    <ul class="list" id="ct"></ul>
+    <div class="h2">DT</div>
+    <ul class="list" id="dt"></ul>
+    <hr>
+    <div class="h2">Objet tenu & Ressource</div>
+<ul id="objres"></ul>
+
+<div class="h2">Pokdex</div>
+    <p class="p" id="pokedex">?</p>
+  </div>
+</div>
+<script>
+// Extend initPokemon to set image if provided in dataset
+const _initPokemonOrig = initPokemon;
+initPokemon = async function(){
+  await _initPokemonOrig();
+  const name = decodeURIComponent(location.pathname.split('/').pop().replace('.html',''))
+  const res = await fetch('../data/pokedex_johto.json'); const data = await res.json();
+  const p = data.find(x=> x.name.toLowerCase() === name);
+  if (p && p.image){
+    document.getElementById('sprite').src = '../' + p.image;
+    document.getElementById('sprite').style.display = 'block';
+  }
+}
+</script>
+</body></html>
+
+
+
+
+
+
