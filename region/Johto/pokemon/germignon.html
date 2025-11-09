@@ -50,51 +50,21 @@
   </div>
 </div>
 <script>
-// Utilise le fallback pkm -> pkm2 si l'image déclarée ne charge pas
-const _initPokemonOrig = window.initPokemon;
-
-window.initPokemon = async function () {
-  // laisse l'init global faire son boulot (types/texte/etc.)
-  try { await _initPokemonOrig?.(); } catch (e) { console.warn(e); }
-
-  // Nom de la page (ex: "germignon" depuis germignon.html)
-  const name = decodeURIComponent(location.pathname.split('/').pop().replace('.html','')).toLowerCase();
-  // Région depuis le chemin (ex: /region/Johto/...)
-  const m = decodeURIComponent(location.pathname).match(/\/region\/([^/]+)/i);
-  const rk = (m ? m[1] : 'Johto').toLowerCase();
-
-  // Charge le pokédex (chemin compatible GitHub Pages)
-  let data = [];
-  try {
-    data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
-  } catch (e) {
-    console.error('Chargement pokedex échoué:', e);
-    return;
+// Extend initPokemon to set image if provided in dataset
+const _initPokemonOrig = initPokemon;
+initPokemon = async function(){
+  await _initPokemonOrig();
+  const name = decodeURIComponent(location.pathname.split('/').pop().replace('.html',''))
+  const res = await fetch('data/pokedex_johto.json'); const data = await res.json();
+  const p = data.find(x=> x.name.toLowerCase() === name);
+  if (p && p.image){
+    document.getElementById('sprite').src = '../' + p.image;
+    document.getElementById('sprite').style.display = 'block';
   }
-
-  const p = data.find(x => x.name.toLowerCase() === name);
-  const img = document.getElementById('sprite');
-  if (!img) return;
-
-  // 1) Si le JSON fournit p.image, on tente d'abord celui-ci
-  if (p && p.image) {
-    const path = p.image.startsWith('/') ? p.image : `/${p.image}`;
-    img.onerror = () => {
-      // 2) En cas d'échec, on passe en fallback automatique pkm -> pkm2
-      setSprite(img, name, rk);
-    };
-    img.src = withBase(path);
-    img.style.display = 'block';
-    return;
-  }
-
-  // 3) Sinon, fallback direct (cherche dans assets/pkm puis assets/pkm2)
-  setSprite(img, name, rk);
-  img.style.display = 'block';
-};
+}
 </script>
-
 </body></html>
+
 
 
 
