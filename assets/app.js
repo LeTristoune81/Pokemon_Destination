@@ -13,6 +13,12 @@ function getParam(name, def=''){
   return u.searchParams.get(name) ?? def;
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); } // "les Sevii" -> "iles_sevii"
+// Base path pour GitHub Pages (repo pages)
+const REPO_BASE = (() => {
+  const parts = location.pathname.split('/').filter(Boolean);
+  return location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}` : '';
+})();
+const withBase = (p) => `${REPO_BASE}${p.startsWith('/') ? p : '/' + p}`;
 
 // ==============================
 // Correction des accents casss
@@ -66,22 +72,22 @@ if (!status) {
 
     const region = detectRegionFromPath();
     const rk = slugRegion(region);
-    const data = await loadJSON(`/data/pokedex_${rk}.json`);
+    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
 
     const render = (items)=>{
       list.innerHTML = items.map(p=>{
         const name = p.name.toLowerCase();
         const candidates = [
-          p.image || '',
-          `/assets/pkm/${name}.png`,
-          `/assets/pkm/${rk}/${name}.png`,
-          `/assets/pkm/${name}_TCG.png`,
-          `/assets/pkm/${p.name.toUpperCase()}.png`
-        ].filter(Boolean);
+   p.image || '',
+   withBase(`/assets/pkm/${name}.png`),
+   withBase(`/assets/pkm/${rk}/${name}.png`),
+   withBase(`/assets/pkm/${name}_TCG.png`),
+   withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
+ ].filter(Boolean);
 
         const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
         const firstSrc = candidates[0];
-        const href = `/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
+        const href = withBase(`/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`);
 
         return `
           <div class="card">
@@ -337,9 +343,9 @@ async function initPokemon(){
     const img = $('#sprite');
     if (img){
       const tryList = [
-        `/assets/pkm/${name}.png`,
-        `/assets/pkm/${rk}/${name}.png`
-      ];
+   withBase(`/assets/pkm/${name}.png`),
+   withBase(`/assets/pkm/${rk}/${name}.png`)
+ ];
       let i = 0;
       img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
       img.src = tryList[0];
@@ -366,6 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initMovesByRegion();                  // ✅ page région
   }
 });
+
 
 
 
