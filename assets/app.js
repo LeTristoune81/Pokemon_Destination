@@ -86,6 +86,8 @@ async function initIndex(){
           withBase(`/assets/pkm/${rk}/${name}.png`),
           withBase(`/assets/pkm/${name}_TCG.png`),
           withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
+          withBase(`/assets/pkm2/${name}.png`),
+          withBase(`/assets/pkm2/${rk}/${name}.png`),
         ].filter(Boolean);
 
         const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
@@ -223,4 +225,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (file.startsWith('pokedex')) initIndex();
   else if (file === 'pokemon.html') initPokemon();
 });
+
 
