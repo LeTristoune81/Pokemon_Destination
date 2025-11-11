@@ -1,18 +1,17 @@
-/***** app.js — version stable Pokemon_Destination *****/
+/***** app.js — version stable avec fallback pkm2 + liens d’évolution *****/
 
 // --------- utils ----------
 function $(q, el=document){ return el.querySelector(q); }
 function norm(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
 
-// >>> base forcée sur le repo de test <<<
 const REPO = '/Pokemon_Destination';
 function withBase(p){
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;              // URL absolue
-  if (p.startsWith(REPO + '/')) return p;             // déjà préfixé
-  if (p.startsWith('/')) return REPO + p;             // /data/... -> /Pokemon_Destination/data/...
-  return REPO + '/' + p.replace(/^.\//,'');           // relatif -> /Pokemon_Destination/...
+  if (/^https?:\/\//i.test(p)) return p;        // URL absolue
+  if (p.startsWith(REPO + '/')) return p;       // déjà préfixé
+  if (p.startsWith('/')) return REPO + p;       // /data/... -> /Pokemon_Destination/data/...
+  return REPO + '/' + p.replace(/^.\//,'');     // relatif -> /Pokemon_Destination/...
 }
 
 async function loadJSON(url){
@@ -22,7 +21,7 @@ async function loadJSON(url){
   return r.json();
 }
 
-// --------- petites corrections visuelles ----------
+// --------- corrections texte ----------
 function fixBrokenAccentsInDom(root=document.body){
   const pairs = [
     ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités'],
@@ -37,6 +36,53 @@ function fixBrokenAccentsInDom(root=document.body){
     for(const [a,b] of pairs) t=t.split(a).join(b);
     if(t!==node.nodeValue) node.nodeValue=t;
   }
+}
+
+// --------- helpers sprites ----------
+function nameVariants(n){
+  const raw = (n||'').toString();
+  const lower = raw.toLowerCase();
+  const upper = raw.toUpperCase();
+  const unders = lower.replace(/\s+/g,'_');
+  const undersU = upper.replace(/\s+/g,'_');
+  return [lower, unders, upper, undersU];
+}
+
+// génère l’ordre d’essai des sprites (pkm → pkm2, avec/sans sous-dossier de région)
+function makeSpriteCandidates(name, rk){
+  const vars = nameVariants(name);
+  const out = [];
+  for (const v of vars){
+    // pkm/
+    out.push(withBase(`/assets/pkm/${v}.png`));
+    if (rk) out.push(withBase(`/assets/pkm/${rk}/${v}.png`));
+    // pkm2/
+    out.push(withBase(`/assets/pkm2/${v}.png`));
+    if (rk) out.push(withBase(`/assets/pkm2/${rk}/${v}.png`));
+  }
+  return out;
+}
+
+// --------- helper: liens sur les évolutions ----------
+function linkifyEvo(evoText, region='Johto'){
+  if (!evoText) return evoText;
+
+  // Remplace "Évolue en <Nom> ..." en gardant le suffixe ("au niveau 18", "avec ...", etc.)
+  return evoText.replace(
+    /Évolue en\s+([^,.;/]+)/g,                     // on prend tout jusqu'à une ponctuation (ou fin de ligne)
+    (full, rest) => {
+      // découpe le "rest" au premier séparateur logique
+      const parts = rest.split(/\s+(?:au|avec|en|si|lorsqu|quand|dans)(?:\s|$)/);
+      const name  = (parts[0] || '').trim();       // => juste le nom du Pokémon
+      if (!name) return full;                      // sécurité : ne rien changer si vide
+
+      const suffixStart = rest.indexOf(name) + name.length;
+      const suffix = rest.slice(suffixStart);      // => " au niveau 18", " avec ...", etc.
+
+      const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name.toLowerCase())}`;
+      return `Évolue en <a href="${href}" class="evo-link">${name}</a>${suffix}`;
+    }
+  );
 }
 
 // --------- LISTE POKÉDEX JOHTO ----------
@@ -58,17 +104,19 @@ async function initIndex(){
     // on force Johto ici
     const region = 'Johto';
     const rk = 'johto';
+
+    // IMPORTANT : on passe toujours par withBase()
     const data = await loadJSON('/data/pokedex_johto.json');
 
     const render = (items)=>{
       grid.innerHTML = items.map(p=>{
         const name = (p.name||'').toLowerCase();
+
+        // sprites : image explicite -> puis pkm / pkm2 avec variantes
         const imgCandidates = [
-          p.image || '',
-          withBase(`/assets/pkm/${name}.png`),
-          withBase(`/assets/pkm/${rk}/${name}.png`),
-          withBase(`/assets/pkm/${(p.name||'').toUpperCase()}.png`)
-        ].filter(Boolean);
+          p.image ? withBase('/'+String(p.image).replace(/^\/+/,'')) : ''
+        ].concat(makeSpriteCandidates(p.name, rk)).filter(Boolean);
+
         const first = imgCandidates[0] || '';
         const dataSrcs = encodeURIComponent(JSON.stringify(imgCandidates));
         const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
@@ -86,7 +134,7 @@ async function initIndex(){
               <div class="cardBody">
                 <div class="h2">${p.name||''}</div>
                 <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
-                <div class="small" style="margin-top:4px">${p.evolution||''}</div>
+                <div class="small" style="margin-top:4px">${linkifyEvo(p.evolution||'', region)}</div>
                 <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche</a></div>
               </div>
             </div>
@@ -154,7 +202,7 @@ async function initPokemon(){
     // entête
     $('#pokename') && ($('#pokename').textContent = p.name);
     const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    const evoEl = $('#evo'); if(evoEl) evoEl.textContent = p.evolution || '?';
+    const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p.evolution || '', region) || '?';
 
     const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
     const habilEl = $('#habil'); if(habilEl){
@@ -165,20 +213,19 @@ async function initPokemon(){
       habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
     }
 
-    // image
+    // image avec fallback pkm2
     const img = $('#sprite');
     if(img){
       const candidates = [
-        withBase(`/assets/pkm/${name}.png`),
-        withBase(`/assets/pkm/${rk}/${name}.png`),
-        p.image ? withBase('/'+String(p.image).replace(/^\/+/,'') ) : ''
-      ].filter(Boolean);
+        p.image ? withBase('/'+String(p.image).replace(/^\/+/,'')) : ''
+      ].concat(makeSpriteCandidates(p.name, rk)).filter(Boolean);
+
       let i=0;
       img.onerror = ()=>{ i++; if(i<candidates.length) img.src=candidates[i]; else img.style.display='none'; };
       img.src = candidates[0] || '';
     }
 
-    // niveau
+    // capacités par niveau
     (function(){
       const lvlEl = $('#lvl'); if(!lvlEl) return;
       const arr = (p.level_up||[]).slice().sort((a,b)=>a.level-b.level);
@@ -196,7 +243,7 @@ async function initPokemon(){
     $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct || []));
     $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt || []));
 
-    // objet & ressource (si fichier présent)
+    // objet & ressource
     (async ()=>{
       let heldName='Non Répertorié', resName='Non Répertorié', resDesc='Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
       try{
