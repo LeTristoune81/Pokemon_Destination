@@ -2,54 +2,42 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <base href="/Pokemon_Destination/">
+  <base href="/Pok-mon_Destination_Test/">
   <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js" defer></script>
+ <script src="/Pok-mon_Destination_Test/assets/app.js?v=stable-final" defer></script>
+
 </head>
 <body>
-  <nav class="topnav">
-    <a href="./index.html">Accueil</a>
-    <a href="./pokedex.html">Pokdex</a>
-    <a href="./moves.html">Attaques</a>
-  </nav>
-
+  <div class="container">
+    <div class="header">
+      <div class="h1">Fiche Pokémon</div>
+      <div class="nav">
+        <a href="/Pok-mon_Destination_Test/index.html">Accueil</a>
+        <a href="/Pok-mon_Destination_Test/region/Johto/Pokedex_Johto.html">Pokédex</a>
+        <a href="/Pok-mon_Destination_Test/moves.html">Attaques</a>
+      </div>
+    </div>
   <main class="container">
-    <h1 class="h1">Pokémon</h1>
 
-    <section class="card" style="display:flex; gap:16px; align-items:flex-start;">
-      <div><img id="sprite" alt="Sprite" style="width:160px; image-rendering: pixelated;"></div>
-      <div class="kv" style="display:grid; grid-template-columns: 160px 1fr; row-gap:10px; column-gap:12px;">
+
+    <section class="card" style="display:flex;gap:16px;align-items:flex-start;">
+      <img id="sprite" alt="Sprite" style="width:160px;image-rendering:pixelated;">
+      <div class="kv" style="display:grid;grid-template-columns:160px 1fr;gap:10px;">
         <div><b>Nom</b></div>            <div id="pokename"></div>
-        <div><b>Types</b></div>          <div id="types"></div>
-        <div><b>Évolution</b></div>      <div id="evo">?</div>
-        <div><b>Talents</b></div>        <div id="habil"></div>
-        <div><b>Talent caché</b></div>   <div id="habhid"></div>
+        <div><b>Types</b></div><div id="types"></div>
+        <div><b>Évolution</b></div><div id="evo"></div>
+        <div><b>Talents</b></div><div id="habil"></div>
+        <div><b>Talent caché</b></div><div id="habhid"></div>
       </div>
     </section>
 
-    <section class="card">
-      <h2 class="h2">Capacités par niveau</h2>
-      <ul id="lvl" class="lvl-grid" style="display:grid; grid-template-columns: repeat(4, minmax(220px,1fr)); gap:12px; list-style:none; padding-left:0;"></ul>
-    </section>
-
-    <section class="card">
-      <h2 class="h2">Capacités par reproduction</h2>
-      <ul id="eggs" style="list-style:none; padding-left:0; margin:0;"></ul>
-    </section>
-
-    <section class="card"><h2 class="h2">CS</h2><ul id="cs" style="list-style:none; padding-left:0; margin:0;"></ul></section>
-    <section class="card"><h2 class="h2">CT</h2><ul id="ct" style="list-style:none; padding-left:0; margin:0;"></ul></section>
-    <section class="card"><h2 class="h2">DT</h2><ul id="dt" style="list-style:none; padding-left:0; margin:0;"></ul></section>
-
-    <section class="card">
-      <h2 class="h2">Objet tenu & Ressource</h2>
-     <ul id="objres"></ul>
-    </section>
-
-    <section class="card">
-      <h2 class="h2">Pokdex</h2>
-      <p id="pokedex">?</p>
-    </section>
+    <section class="card"><h2>Capacités par niveau</h2><ul id="lvl"></ul></section>
+    <section class="card"><h2>Capacités par reproduction</h2><ul id="eggs"></ul></section>
+    <section class="card"><h2>CS</h2><ul id="cs"></ul></section>
+    <section class="card"><h2>CT</h2><ul id="ct"></ul></section>
+    <section class="card"><h2>DT</h2><ul id="dt"></ul></section>
+    <section class="card"><h2>Objet tenu & Ressource</h2><ul id="objres"></ul></section>
+    <section class="card"><h2>Pokédex</h2><p id="pokedex"></p></section>
   </main>
 </body>
 </html>
