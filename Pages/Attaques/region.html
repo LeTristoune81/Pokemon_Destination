@@ -15,7 +15,7 @@
     .card{background:#0b1020;border:1px solid #27324a;border-radius:10px;padding:12px}
     .card strong{color:#ffffff}
     .tag{display:inline-block;background:#1a2440;border:1px solid #334569;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:.8rem}
-    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem}
+    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem;white-space:pre-line}
     .alert{background:#24121a;border:1px solid #6d2a3c;color:#ffd6de;border-radius:8px;padding:10px 12px}
     a{color:#7db3ff;text-decoration:none}
     code{background:#101a2a;border:1px solid #27324a;border-radius:6px;padding:0 6px}
@@ -25,7 +25,7 @@
 </head>
 <body>
   <nav class="topnav" style="padding:8px 16px">
-    <a href="/index.html">Accueil</a>
+    <a href="/Pokemon_Destination/index.html">Accueil</a>
   </nav>
 
   <div class="wrap">
@@ -50,112 +50,200 @@
     <div id="attacks" class="grid"></div>
   </div>
 
-  <script>
-  (async () => {
-    // ---- Région depuis ?r=Johto (défaut Johto)
-    const url = new URL(location.href);
-    const rParam = url.searchParams.get('r') || 'Johto';
-    document.getElementById('regionLabel').textContent = rParam;
+<script>
+(async () => {
+  // === Région courante (?r=Johto) ===
+  const url = new URL(location.href);
+  const rParam = url.searchParams.get('r') || 'Johto';
+  document.getElementById('regionLabel').textContent = rParam;
 
-    // ---- Chemins vers les JSON (depuis /Pages/Attaques/)
-    const PATH_MOVES   = '../../data/moves_index.json';
-    const PATH_REGIONS = '../../data/regions_moves.json';
+  // === Chemins JSON ===
+  const PATH_MOVES   = '../../data/moves_index.json'; // version corrigée UTF-8
+  const PATH_REGIONS = '../../data/regions_moves.json';
 
-    const msg     = document.getElementById('msg');
-    const grid    = document.getElementById('attacks');
-    const search  = document.getElementById('search');
-    const tagSel  = document.getElementById('tagSel');
-    const countEl = document.getElementById('count');
+  const msg     = document.getElementById('msg');
+  const grid    = document.getElementById('attacks');
+  const search  = document.getElementById('search');
+  const tagSel  = document.getElementById('tagSel');
+  const countEl = document.getElementById('count');
 
-    // --- utilitaires
-    const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
-    async function loadJSON(path, label) {
-      const res = await fetch(path);
-      if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
-      return res.json();
+  async function loadJSON(path, label) {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
+    return res.json();
+  }
+
+  let movesAll, regions;
+  try {
+    movesAll = await loadJSON(PATH_MOVES, 'moves_index.json');
+    regions  = await loadJSON(PATH_REGIONS, 'regions_moves.json');
+  } catch (e) {
+    msg.innerHTML = `<div class="alert">
+      Erreur de chargement : ${e.message}<br>
+      Vérifie que les fichiers existent bien :
+      <div><code>${PATH_MOVES}</code></div>
+      <div><code>${PATH_REGIONS}</code></div>
+    </div>`;
+    return;
+  }
+
+  const movesArray = Array.isArray(movesAll) ? movesAll : Object.values(movesAll || {});
+  const idxByName  = new Map(movesArray.map(m => [m.name, m]));
+  const idxByToken = new Map(movesArray.map(m => [m.token ?? m.upper ?? m.name, m]));
+
+  const keyWanted = norm(rParam);
+  const foundKey  = Object.keys(regions).find(k => norm(k) === keyWanted);
+  const regionData = (foundKey && regions[foundKey]) || { CT: [], DT: [], CS: [], CU: [] };
+
+  // === Gestion descriptions multi-régions ===
+  const REGION_ALIASES = {
+    "KANTO": ["KANTO"],
+    "JOHTO": ["JOHTO","JOTHO"],
+    "HOENN": ["HOENN"],
+    "SINNOH": ["SINNOH","SINNO"],
+    "UNYS": ["UNYS","UNOVA"],
+    "KALOS": ["KALOS"],
+    "ALOLA": ["ALOLA"],
+    "GALAR": ["GALAR"],
+    "PALDEA": ["PALDEA"]
+  };
+
+  function regionTagMatches(line, wanted) {
+    if (!line || !wanted) return false;
+    const cleaned = line
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .toUpperCase();
+    const want = (wanted||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase();
+    return cleaned.includes(`# ${want}`) || cleaned.includes(`#${want}`) || cleaned.includes(`${want} :`);
+  }
+
+  function matchesDescForRegion(desc, regionName) {
+    if (!desc) return false;
+    return regionTagMatches(desc, regionName);
+  }
+
+  function filterDescByRegion(desc, regionName) {
+    if (!desc) return "";
+    const lines = desc.replace(/\r\n/g, '\n').split('\n');
+    const kept = [];
+    for (const ln of lines) {
+      if (/^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+/.test(ln)) {
+        if (regionTagMatches(ln, regionName)) {
+          kept.push(ln.replace(/^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+\s*:\s*/i, '').trim());
+        }
+      } else {
+        kept.push(ln);
+      }
+    }
+    return kept.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  }
+
+  function fixMojibake(s){
+    if (!s || !/[ÃÂ]/.test(s)) return s;
+    try{
+      const bytes = Uint8Array.from([...s].map(ch => ch.charCodeAt(0) & 0xFF));
+      return new TextDecoder('utf-8').decode(bytes);
+    }catch(_){ return s; }
+  }
+
+  const normalizeRegionMove = (raw) => {
+    if (typeof raw === 'string') {
+      const fromIdx = idxByName.get(raw) || idxByToken.get(raw);
+      return fromIdx ? {
+        name: fromIdx.name,
+        type: fromIdx.type ?? '',
+        category: fromIdx.category ?? '',
+        power: fromIdx.power ?? null,
+        accuracy: fromIdx.accuracy ?? null,
+        pp: fromIdx.pp ?? null,
+        description: filterDescByRegion(fixMojibake(fromIdx.description) ?? '', foundKey || rParam),
+        source: 'index'
+      } : { name: raw, type: '', category: '', power: null, accuracy: null, pp: null, description: '', source: 'name-only' };
     }
 
-    let movesAll, regions;
-    try {
-      movesAll = await loadJSON(PATH_MOVES, 'moves_index.json');
-      regions  = await loadJSON(PATH_REGIONS, 'regions_moves.json');
-    } catch (e) {
-      msg.innerHTML = `<div class="alert">
-        Erreur de chargement : ${e.message}<br>
-        Vérifie que les fichiers existent bien aux emplacements :
-        <div><code>${PATH_MOVES}</code></div>
-        <div><code>${PATH_REGIONS}</code></div>
-        Et que tu ouvres la page via un serveur local (ex : <code>http://127.0.0.1:5500/Pages/Attaques/region.html?r=Johto</code>).
-      </div>`;
+    const fromIdx = idxByName.get(raw.name) || idxByToken.get(raw.upper ?? raw.code);
+    const descRegion = (raw.description && raw.description.trim()) ? raw.description : "";
+    const descIndex  = fixMojibake(fromIdx?.description ?? "");
+    const descMerged = descRegion || descIndex || "";
+    const description = filterDescByRegion(descMerged, foundKey || rParam);
+
+    return {
+      name: (fromIdx?.name) ?? raw.name,
+      type: (fromIdx?.type) ?? raw.type ?? '',
+      category: (fromIdx?.category) ?? raw.categorie ?? '',
+      power: (fromIdx?.power ?? fromIdx?.puissance) ?? raw.puissance ?? null,
+      accuracy: (fromIdx?.accuracy ?? fromIdx?.precision) ?? raw.precision ?? null,
+      pp: (fromIdx?.pp) ?? raw.pp ?? null,
+      description,
+      source: fromIdx ? 'merged' : 'region'
+    };
+  };
+
+  // === Liste par tag avec extension CS globale ===
+  function listForTag(tagRaw) {
+    const raw  = (tagRaw ?? '').toString().trim();
+    const normTag = raw.replace(/\s+/g, '').toUpperCase();
+    const valid = new Set(['CT','DT','CS','CU']);
+
+    const basePick = valid.has(normTag)
+      ? (regionData[normTag] || [])
+      : ['CT','DT','CS','CU'].flatMap(k => regionData[k] || []);
+
+    let pick = basePick;
+    if (normTag === 'CS') {
+      const extra = [];
+      for (const [regName, buckets] of Object.entries(regions)) {
+        const csList = buckets?.CS || [];
+        for (const entry of csList) {
+          const obj = (typeof entry === 'string') ? { name: entry, description: '' } : entry;
+          const desc = obj?.description || '';
+          if (matchesDescForRegion(desc, foundKey || rParam)) extra.push(entry);
+        }
+      }
+      pick = pick.concat(extra);
+    }
+
+    const normalized = pick.map(normalizeRegionMove);
+    const seen = new Set();
+    return normalized.filter(m => {
+      const key = m.name;
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function updateCount(n) {
+    countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
+  }
+
+  function render() {
+    const tag = tagSel.value;
+    const q   = norm(search.value);
+    const list = listForTag(tag)
+      .filter(m => !q || norm(m.name).includes(q) || norm(m.description).includes(q));
+
+    updateCount(list.length);
+    if (!list.length) {
+      grid.innerHTML = `<div class="alert">Aucune attaque trouvée pour ce filtre.</div>`;
       return;
     }
+    grid.innerHTML = list.map(m => `
+      <div class="card">
+        <div><strong>${m.name}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
+        ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
+        <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
+        ${m.description ? `<div class="small">${m.description}</div>` : ''}
+      </div>
+    `).join('');
+  }
 
-    // moves_index.json peut être un objet ou un tableau ; on uniformise en tableau d'objets
-    const movesArray = Array.isArray(movesAll) ? movesAll : Object.values(movesAll || {});
-    const nameMap = new Map(movesArray.map(m => [m.name, m]));
-
-    // clé de région dans regions_moves.json (insensible aux accents/casse)
-    const keyWanted = norm(rParam);
-    const foundKey = Object.keys(regions).find(k => norm(k) === keyWanted);
-    const regionData = (foundKey && regions[foundKey]) || { CT: [], DT: [], CS: [], CU: [] };
-
-    // fonction liste par tag : ALL agrège l'union unique
-    function listForTag(tagRaw) {
-      const raw  = (tagRaw ?? '').toString().trim();
-      const normTag = raw
-        .replace(/\u2014/g, '') // em-dash —
-        .replace(/\u2013/g, '') // en-dash –
-        .replace(/-/g, '')      // hyphen -
-        .replace(/\s+/g, '')    // espaces
-        .toUpperCase();
-
-      const valid = new Set(['CT','DT','CS','CU']);
-      if (valid.has(normTag)) return regionData[normTag] || [];
-
-      const all = ['CT','DT','CS','CU'].flatMap(k => regionData[k] || []);
-      return Array.from(new Set(all));
-    }
-
-    function updateCount(n) {
-      countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
-    }
-
-    function render() {
-      const tag = tagSel.value;
-      const q   = norm(search.value);
-
-      const names = listForTag(tag)
-        .filter(n => !q || norm(n).includes(q));
-
-      updateCount(names.length);
-
-      if (!names.length) {
-        grid.innerHTML = `<div class="alert">Aucune attaque trouvée pour ce filtre.</div>`;
-        return;
-      }
-
-      grid.innerHTML = names.map(name => {
-        const m = nameMap.get(name);
-        if (!m) {
-          return `<div class="card"><strong>${name}</strong><div class="small">Détail introuvable dans moves_index.json</div></div>`;
-        }
-        return `
-          <div class="card">
-            <div><strong>${m.name}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
-            ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
-            <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
-            ${m.description ? `<div class="small">${m.description}</div>` : ''}
-          </div>
-        `;
-      }).join('');
-    }
-
-    // events + rendu initial
-    search.addEventListener('input', render);
-    tagSel.addEventListener('change', render);
-    render();
-  })();
-  </script>
+  search.addEventListener('input', render);
+  tagSel.addEventListener('change', render);
+  render();
+})();
+</script>
 </body>
 </html>
